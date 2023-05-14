@@ -1,0 +1,351 @@
+#{
+ margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.formulario-registro {
+    width: 400px;
+    margin-top: 100px;
+    background: aquamarine;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 8px 13px 13px blue;
+    text-decoration: none;
+}
+
+.historia {
+    font-size: 30px;
+    text-align: justify;
+    font-family: "Pacifico";
+}
+
+.historia:hover {
+    color: blue;
+}
+
+.datos {
+    font-size: 80px;
+    font-family: "Satisfy";
+    color: blue;
+    text-decoration: underline;
+}
+
+.datos:hover {
+    color: blueviolet;
+    background: aquamarine;
+    border-style: double;
+    border-color: black;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Satisfy";
+    color: black;
+    text-decoration: underline;
+}
+
+.imagen {
+    width: 500px;
+    height: 400px;
+}
+
+.barra-nav-index-imagen {
+    width: 90px;
+    height: 70px;
+}
+
+.barra-nav-index {
+    text-decoration: none;
+    border: 10px;
+    color: black;
+    border-color: blue;
+    border-style: double;
+    background: aquamarine;
+}
+
+.barra-nav-index-enlaces {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Times New Roman";
+    text-align: justify;
+    color: blue;
+}
+
+.barra-nav-index-enlaces:hover {
+    text-transform: uppercase;
+    text-decoration-line: unset;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "GreatVibes";
+    background: aquamarine;
+    border-style: dotted;
+}
+
+.index-reflexion-h1 {
+    font-family: "Satisfy";
+    color: blue;
+    font-size: 80px;
+    text-align: center;
+}
+
+.index-reflexion-h1:hover {
+    font-size: 60px;
+    border-style: double;
+    border-color: blue;
+    text-decoration-line: unset;
+    font-family: "Pacifico";
+    color: black;
+    background: aqua;
+}
+
+.index-reflexion-p {
+    font-size: 30px;
+    font-family: "Times New Roman";
+    text-align: justify;
+}
+
+.index-reflexion-p:hover {
+    color: blue;
+}
+
+.formulario-registro-titulo {
+    font-size: 50px;
+}
+
+.formulario-registro-titulo:hover {
+    font-size: 60px;
+    color: blue;
+    border-style: dotted;
+}
+
+.formulario-registro-ingrese {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-family: "Times New Roman";
+}
+
+.formulario-registro-datos {
+    width: 100%;
+    text-align: center;
+    font-family: "verdana";
+    border-radius: 4px;
+    font-size: 20px;
+    color: black;
+}
+
+.formulario-registro-condiciones {
+    font-family: "Arial";
+    text-align: center;
+    font-size: 15px;
+}
+
+.formulario-registro-acepte {
+    font-size: 20px;
+    align-content: center;
+    font-weight: bold;
+    bottom: center;
+}
+
+.formulario-registro-acepte:hover {
+    font-family: "Times New Roman";
+    color: blue;
+}
+
+/*.formulario-registro-aceptar {}*/
+
+.planificacion-educacionI-header{
+    background: blue;
+    border: 3px solid black;
+}
+
+.planificacion-educacionI-header-nav{
+    background: blue;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.planificacion-educacionI-header-nav-imag{
+    width:130px;
+    height: 90px;
+    
+}
+
+.planificacion-educacionI-titulo {
+    text-align: center;
+    font-size: 80px;
+    font-family: "Times New Roman";
+    color: blue;
+    text-decoration: underline
+}
+
+.planificacion-educacionI-titulo:hover {
+    font-size: 100px;
+    color: red;
+}
+
+.planificacion-educacionI-texto1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.planificacion-educacionI-texto {
+    font-size: 40px;
+    font-family: "Arial";
+    text-decoration: underline;
+}
+
+.planificacion-educacionI-texto:hover {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.planficion-educacionI-capacidades-items {
+    font-size: 50px;
+}
+
+.grid-planificacion-educacionI-contenidos-tabla2 {
+    display: grid;
+    grid-template-columns: repeat(3, 616px);
+    grid-template-rows: 70px 1000px;
+    text-align: center;
+   
+}
+
+.grid-planificacion-educacionI-contenidos-tabla1 {
+    Display: grid;
+    grid-template-columns: repeat(3, 616px);
+    grid-template-rows: 60px 750px;
+    text-align: center;
+    
+}
+
+.grid-planificacion-educacionI-contenidos-columnas {
+    font-family: "Times New Roman";
+    font-size: 40px;
+    border: 3px solid black;
+    background: aquamarine;
+}
+
+.grid-planificacion-educacionI-contenidos-filas {
+    border: 2px solid black;
+}
+
+.planificacion-educacionI-contenidos-parrafo {
+    font-family: "Times New Roman";
+    font-size: 25px;
+    text-align: justify;
+    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.planificacion-educacionI-unidades {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Arial";
+}
+
+.planificación-educacionI-otros {
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+.planificación-educacionI-otros:hover {
+    font-size: 80px;
+    color: red;
+}
+
+.slide {
+    margin-top: 0;
+    background-color: blueviolet;
+}
+
+.planificación-educacionI-imagenes {
+    width: 1200px;
+    height: 800px;
+    border: 9px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.carousel-inner {
+    background-color: black;
+}
+
+.planificacion-educacionI-metodologia-p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 25px;
+    font-family: "Times New Roman";
+}
+
+.planificacion-educacionI-tituloh4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Satisfy";
+    color: Blue;
+    text-decoration: underline;
+}
+
+.planificacion-educacionI-Criterios-Item {
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: justify;
+    font-family: "Times New Roman";
+    font-size: 25px;
+}
+
+.planificacion-educacionI-Bibliografia-Item {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: "Times New Roman";
+    text-align: justify;
+    font-size: 25px;
+}
+
+.planificacion-educacionI-volver-boton{
+    font-size: 30px;
+    margin: 15px;
+    margin-top:  15px;
+    margin-left:  15px;
+    margin-right:  15px;   
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    border: 3px double black;    
+    background: rgb(194, 233, 190);
+    color:blue;
+}
+
+.img-contenidos{
+    width: 350px;
+    height: 350px;
+    border: 4px solid black;
+}
+
+.scribd_iframe_embed{
+   
+    width: 3000px;
+    height: 1000px;
+}
+.Proyectos-Primero{
+    color:blue;
+    font-size: 50px;
+    font-family: "Pacifico";
+}
