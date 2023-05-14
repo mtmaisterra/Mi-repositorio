@@ -362,10 +362,19 @@ h1 {
 .educacionII-tabla-contenido {
     border: 2px solid black;
 }
+.planificacion-educacionII-header-nav{
+    background-color: aqua;
+    width: auto;
+    height: 90px;
+    border: 1px solid black;
+    align-content: center;
+}
+.planificacion-educacionII-header-nav-item{
+    margin-right: 80px;
+    margin-left: 80px;
+    align-content: center;
+}
 
-/*.educacionII-tabla-contenido-diseño{
-   
-}*/
 .educacionIi-tabla-diseño-col-fila {
     border: 2px solid black;
 }
