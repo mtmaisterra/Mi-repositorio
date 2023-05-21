@@ -1,0 +1,31 @@
+@import "variables/variables.scss";
+
+.body-index {
+    background-color: blanchedalmond;
+
+    .barra-nav-index {
+
+        .barra-nav-index-imagen {
+            @include sizes(90px, 70px);
+        }
+
+        .barra-nav-index-enlaces {
+
+        }
+
+        .barra-nav-index-enlaces:hover{
+
+        }
+    }
+.index-reflexion-h1{
+font:$reflexion-h1-font;
+    &:hover {
+
+    }
+}
+.index-reflexion-p {
+
+    &:hover {
+
+    }
+}
