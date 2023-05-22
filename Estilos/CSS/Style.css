@@ -1,0 +1,163 @@
+@charset "UTF-8";
+.planificacion-educacionI-body {
+  background: blanchedalmond;
+}
+.planificacion-educacionI-body .navbar-bg-dark {
+  background-color: black;
+  width: auto;
+  height: 80px;
+  border-color: black;
+  border: 8px;
+}
+.planificacion-educacionI-body .navbar-bg-dark .navbar input[type=submit] {
+  padding: 40px 100px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border: none;
+  cursor: pointer;
+}
+.planificacion-educacionI-body .barra-nav-buscar {
+  height: 40px;
+  width: 400px;
+  background-color: blanchedalmond;
+  font-size: 25px;
+}
+.planificacion-educacionI-body .barra-nav-buscar-boton {
+  height: 40px;
+  width: 100px;
+  font-size: 25px;
+}
+.planificacion-educacionI-body .barra-nav-index-imagen {
+  width: 80px;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: white;
+}
+.planificacion-educacionI-body .barra-nav-index-enlaces {
+  padding: 5px;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  text-decoration: none;
+  margin-right: 35px;
+  margin-left: 35px;
+  font-size: 25px;
+}
+.planificacion-educacionI-body .planificacion-educacionI-titulo {
+  font-family: "Times New Roman";
+  color: blue;
+  font-size: 80px;
+  text-decoration: underline bold;
+  text-align: center;
+  transition: infinite;
+  transition: all 2s;
+}
+.planificacion-educacionI-body .planificacion-educacionI-titulo:hover {
+  font-family: "Pacifico";
+  color: red;
+  font-size: 100px;
+}
+.planificacion-educacionI-body .planificacion-educacionI-texto {
+  font-size: 50px;
+  color: black;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+.planificacion-educacionI-body .planificacion-educacionI-texto:hover {
+  text-transform: uppercase;
+}
+.planificacion-educacionI-body .planificacion-educacionI-texto1 {
+  font-size: 50px;
+  margin-right: 10px;
+  text-align: center;
+}
+.planificacion-educacionI-body .planificación-educacionI-otros {
+  font-size: 80px;
+  font-family: "Times New Roman";
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+.planificacion-educacionI-body .planificación-educacionI-otros:hover {
+  color: red;
+  font-family: "Pacifico";
+}
+.planificacion-educacionI-body .planficion-educacionI-capacidades-items {
+  font-size: 40px;
+  font-family: "Reboto";
+}
+.planificacion-educacionI-body .unidades {
+  display: inline-flex;
+  animation-name: aparecer;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.planificacion-educacionI-body .imagen {
+  display: inline-flex;
+  padding: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.planificacion-educacionI-body .enlacePlanificacion {
+  text-decoration: none;
+  text-align: center;
+}
+.planificacion-educacionI-body .enlacePlanificacion :hover {
+  color: red;
+  text-align: center;
+}
+.planificacion-educacionI-body .metodologia {
+  font-size: 50px;
+  font-family: "Reboto";
+  color: blue;
+  animation-name: aparecer;
+  background-color: grey;
+  border-style: dashed;
+  animation-duration: 3s;
+  margin-left: 600px;
+  margin-right: 600px;
+  animation-iteration-count: infinite;
+}
+.planificacion-educacionI-body .datosCreacion {
+  font-size: 25px;
+  font-family: "Arial";
+  text-align: center;
+  text-decoration: none;
+}
+.planificacion-educacionI-body .enlaceRedes {
+  font-size: 50px;
+  font-family: "Reboto";
+  color: black;
+}
+.planificacion-educacionI-body .galeriaFotos-inner {
+  width: 600px;
+  height: 400px;
+}
+.planificacion-educacionI-body .galeriaFotos-item {
+  display: inline-flex;
+  width: 10px;
+  height: 15px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 2;
+  }
+  50% {
+    opacity: 4;
+  }
+  75% {
+    opacity: 5;
+  }
+  100% {
+    opacity: 6;
+  }
+}
+
+/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,191 @@
+@import "variables.scss";
+
+
+.planificacion-educacionI-body {
+    background: $color4;
+
+    .navbar-bg-dark {
+        background-color: $color3;
+        width: auto;
+        height: $imgHeigth3;
+        border-color: $color3;
+        border: $borderT1;
+
+        .navbar input[type="submit"] {
+            padding: 40px 100px;
+            margin-left: $marginSize4;
+            margin-right: $marginSize4;
+            border: $textDec4;
+            cursor: pointer;
+        }
+    }
+
+    .barra-nav-buscar {
+        height: $imgHeigth4;
+        width: $imgWidth1;
+        background-color: $color4;
+        font-size: $fontT5;
+    }
+    .barra-nav-buscar-boton{
+        height: $imgHeigth4;
+        width: $imgHeigth5;
+        font-size: $fontT5;
+    }
+
+    .barra-nav-index-imagen {
+        width: $imgHeigth3;
+        height: $imgHeigth4;
+        margin-left: $marginSize1;
+        margin-top: $marginSize2;
+        background-color: $color7;
+    }
+
+    .barra-nav-index-enlaces {
+        padding: $marginSize5;
+        color: $color7;
+        text-align: $textAlig1;
+        margin-top: $marginSize5;
+        text-decoration: $textDec4;
+        margin-right: $marginSize3 ;
+        margin-left: $marginSize3;
+        font-size: $fontT5;
+    }
+
+    .planificacion-educacionI-titulo {
+        font-family: $font1;
+        color: $color2;
+        font-size: $fontT1;
+        text-decoration: $textDec1 $textDec2;
+        text-align: $textAlig1;
+        transition: infinite;
+        transition: all 2s;
+
+        &:hover {
+            font-family: $font2;
+            color: $color1;
+            font-size: $fontT2;
+        }
+    }
+
+    .planificacion-educacionI-texto {
+        font-size: $fontT3;
+        color: $color3;
+        margin-right: $marginSize2;
+        text-decoration: $textDec1;
+
+        &:hover {
+            text-transform: $textDec3;
+        }
+    }
+
+    .planificacion-educacionI-texto1 {
+        font-size: $fontT3;
+        margin-right: $marginSize2;
+        text-align: $textAlig1;
+    }
+
+    .planificación-educacionI-otros {
+        font-size: $fontT1;
+        font-family: $font1;
+        text-align: $textAlig1;
+        text-decoration: $textDec1;
+        color: $color2;
+
+        &:hover {
+            color: $color1;
+            font-family: $font2;
+        }
+    }
+
+    .planficion-educacionI-capacidades-items {
+        font-size: $fontT4;
+        font-family: $font3 ;
+    }
+
+    .unidades {
+        display: $imgDisplay1;
+        animation-name: aparecer;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    .imagen {
+        display: $imgDisplay1;
+        padding: $marginSize3;
+        margin-left: $marginSize1;
+        margin-right: $marginSize1;
+
+    }
+
+    .enlacePlanificacion {
+        text-decoration: $textDec4;
+        text-align: $textAlig1;
+
+        & :hover {
+            color: $color1;
+            text-align: $textAlig1;
+
+        }
+    }
+
+    .metodologia {
+        font-size: $fontT3;
+        font-family: $font3;
+        color: $color2;
+        animation-name: aparecer;
+        background-color: $color6;
+        border-style: $borderE1;
+        animation-duration: 3s;
+        margin-left: $marginSize4;
+        margin-right: $marginSize4;
+        animation-iteration-count: infinite;
+    }
+
+    .datosCreacion {
+        font-size: $fontT5;
+        font-family: $font4;
+        text-align: $textAlig1;
+        text-decoration: $textDec4;
+    }
+
+    .enlaceRedes {
+        font-size: $fontT3;
+        font-family: $font3;
+        color: $color3;
+    }
+
+    .galeriaFotos-inner {
+        width: $imgWidth2;
+        height: $imgHeigth1;
+    }
+
+    .galeriaFotos-item {
+        display: $imgDisplay1;
+        width: $marginSize2;
+        height: $marginSize1;
+        margin-right: $marginSize3;
+        margin-left: $marginSize3;
+    }
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 2;
+    }
+
+    50% {
+        opacity: 4;
+    }
+
+    75% {
+        opacity: 5;
+    }
+
+    100% {
+        opacity: 6;
+    }
+}
