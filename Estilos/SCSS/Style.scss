@@ -1,94 +1,117 @@
 @import "variables.scss";
+@import "mixin.scss";
 
 
-.planificacion-educacionI-body {
+//Body del index//
+.body-index {
     background: $color4;
-
-    .navbar-bg-dark {
-        background-color: $color3;
-        width: auto;
-        height: $imgHeigth3;
-        border-color: $color3;
-        border: $borderT1;
-
-        .navbar input[type="submit"] {
-            padding: 40px 100px;
-            margin-left: $marginSize4;
-            margin-right: $marginSize4;
-            border: $textDec4;
-            cursor: pointer;
+//header del index//
+    header {
+        &.navbar {
+            list-style-type: $Dec4;
+            margin: $Size7;
+            padding: $Size7;
+            overflow: $overflow1;
+            background-color: $color9;
+        }
+        &.navbar-ul li {
+            float: $float1;
+        }
+    
+        &.navbar-ul li a {
+            display: $Display2;
+            color: $color7;
+            text-align: $Alig1;
+            padding: $Size8 $Size9;
+            text-decoration: $Dec4;
+        }
+    
+        &.navbar-ul li a:hover {
+            background-color: $color6;
+            color: $color2;
+            font-family: $font3;
+            font-weight: $Dec2;
+        }
+    
+        &.search-container {
+            float: $float2;
         }
     }
 
-    .barra-nav-buscar {
-        height: $imgHeigth4;
-        width: $imgWidth1;
-        background-color: $color4;
-        font-size: $fontT5;
-    }
-    .barra-nav-buscar-boton{
-        height: $imgHeigth4;
-        width: $imgHeigth5;
-        font-size: $fontT5;
-    }
 
-    .barra-nav-index-imagen {
-        width: $imgHeigth3;
-        height: $imgHeigth4;
-        margin-left: $marginSize1;
-        margin-top: $marginSize2;
-        background-color: $color7;
-    }
 
-    .barra-nav-index-enlaces {
-        padding: $marginSize5;
-        color: $color7;
-        text-align: $textAlig1;
-        margin-top: $marginSize5;
-        text-decoration: $textDec4;
-        margin-right: $marginSize3 ;
-        margin-left: $marginSize3;
-        font-size: $fontT5;
-    }
+}
+
+ //body de la página Educación Tecnológica I //
+.educacionI-body {   
+    background: $color4;
+
+   //header de Educación Tecnológica I//
+
+        .header {
+            &.navbar {
+                list-style-type: $Dec4;
+                margin: $Size7;
+                padding: $Size7;
+                overflow: $overflow1;
+                background-color: $color9;
+            }
+            &.navbar-ul li {
+                float: $float1;
+            }
+        
+            &.navbar-ul li a {
+                display: $Display2;
+                color: $color7;
+                text-align: $Alig1;
+                padding: $Size8 $Size9;
+                text-decoration: $Dec4;
+            }
+        
+            &.navbar-ul li a:hover {
+                background-color: $color6;
+                color: $color2;
+                font-family: $font3;
+                font-weight: $Dec2;
+            }
+        
+            &.search-container {
+                float: $float2;
+            }
+        }
 
     .planificacion-educacionI-titulo {
-        font-family: $font1;
-        color: $color2;
-        font-size: $fontT1;
-        text-decoration: $textDec1 $textDec2;
-        text-align: $textAlig1;
-        transition: infinite;
-        transition: all 2s;
+        @include titulo ($color2);
 
         &:hover {
             font-family: $font2;
             color: $color1;
-            font-size: $fontT2;
+            font-size: $Size19;
         }
     }
 
     .planificacion-educacionI-texto {
-        font-size: $fontT3;
+        font-size: $Size20;
         color: $color3;
-        margin-right: $marginSize2;
-        text-decoration: $textDec1;
+        margin-right: $Size2;
+        text-decoration: $Dec1;
 
         &:hover {
-            text-transform: $textDec3;
+            text-transform: $Dec3;
         }
     }
 
     .planificacion-educacionI-texto1 {
-        font-size: $fontT3;
-        margin-right: $marginSize2;
-        text-align: $textAlig1;
+        font-size: $Size20;
+        margin-right: $Size2;
+        text-align: $Alig1;
     }
 
     .planificación-educacionI-otros {
-        font-size: $fontT1;
+        font-size: $Size17;
         font-family: $font1;
-        text-align: $textAlig1;
-        text-decoration: $textDec1;
+        text-align: $Alig1;
+        text-decoration: $Dec1;
         color: $color2;
 
         &:hover {
@@ -98,94 +121,83 @@
     }
 
     .planficion-educacionI-capacidades-items {
-        font-size: $fontT4;
+        font-size: $Size18;
         font-family: $font3 ;
     }
 
     .unidades {
-        display: $imgDisplay1;
+        display: $Display1;
         animation-name: aparecer;
         animation-duration: 3s;
         animation-iteration-count: infinite;
     }
 
     .imagen {
-        display: $imgDisplay1;
-        padding: $marginSize3;
-        margin-left: $marginSize1;
-        margin-right: $marginSize1;
-
+        display: $Display1;
+        padding: $Size3;
+        margin-left: $Size1;
+        margin-right: $Size1;
     }
 
     .enlacePlanificacion {
-        text-decoration: $textDec4;
-        text-align: $textAlig1;
+        text-decoration: $Dec4;
+        text-align: $Alig1;
 
         & :hover {
             color: $color1;
-            text-align: $textAlig1;
-
+            text-align: $Alig1;
         }
     }
 
     .metodologia {
-        font-size: $fontT3;
-        font-family: $font3;
-        color: $color2;
-        animation-name: aparecer;
-        background-color: $color6;
-        border-style: $borderE1;
-        animation-duration: 3s;
-        margin-left: $marginSize4;
-        margin-right: $marginSize4;
-        animation-iteration-count: infinite;
+        @include metodologia;
     }
 
     .datosCreacion {
-        font-size: $fontT5;
+        font-size: $Size21;
         font-family: $font4;
-        text-align: $textAlig1;
-        text-decoration: $textDec4;
+        text-align: $Alig1;
+        text-decoration: $Dec4;
     }
 
     .enlaceRedes {
-        font-size: $fontT3;
+        font-size: $Size20;
         font-family: $font3;
         color: $color3;
     }
 
     .galeriaFotos-inner {
-        width: $imgWidth2;
-        height: $imgHeigth1;
+        width: $Size4;
+        height: $Size12;
     }
 
     .galeriaFotos-item {
-        display: $imgDisplay1;
-        width: $marginSize2;
-        height: $marginSize1;
-        margin-right: $marginSize3;
-        margin-left: $marginSize3;
-    }
-}
-
-@keyframes aparecer {
-    0% {
-        opacity: 0;
+        display: $Display1;
+        width: $Size2;
+        height: $Size1;
+        margin-right: $Size3;
+        margin-left: $Size3;
     }
 
-    25% {
-        opacity: 2;
-    }
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
 
-    50% {
-        opacity: 4;
-    }
+        25% {
+            opacity: 2;
+        }
 
-    75% {
-        opacity: 5;
-    }
+        50% {
+            opacity: 4;
+        }
 
-    100% {
-        opacity: 6;
+        75% {
+            opacity: 5;
+        }
+
+        100% {
+            opacity: 6;
+        }
     }
 }

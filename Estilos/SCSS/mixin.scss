@@ -1,0 +1,53 @@
+@mixin boton-estilo($color5) {
+    background-color: $color5;
+    padding: $Size2 $Size6;
+    border-radius: $Size5;
+    font-size: $fontT7 ;
+    font-family: $font1;
+    text-decoration: $Dec2;
+}
+
+
+@mixin nav-item($color2) {
+    text-decoration: $Dec4;
+    background-color: $color2;
+    width: $Size23;
+    height: $Size17;
+    border-color: $color3;
+    border: $borderT2;
+}
+
+@mixin nav-link($color7) {
+    padding: $Size5;
+    color: $color7;
+    text-align: $Alig1;
+    margin-top: $Size5;
+    text-decoration: $Dec4;
+    margin-right: $Size3 ;
+    margin-left: $Size3;
+    font-size: $fontT5;
+}
+
+@mixin titulo ($color2) {
+    font-family: $font1;
+    color: $color2;
+    font-size: $fontT1;
+    text-decoration: $Dec1 $Dec2;
+    text-align: $tAlig1;
+    transition: infinite;
+    transition: all 2s;
+
+}
+
+@mixin metodologia ($color2) {
+    font-size: $fontT3;
+    font-family: $font3;
+    color: $color2;
+    animation-name: aparecer;
+    background-color: $color6;
+    border-style: $borderE1;
+    animation-duration: 3s;
+    margin-left: $marginSize4;
+    margin-right: $marginSize4;
+    animation-iteration-count: infinite;
+}
