@@ -1,333 +1,3 @@
-@charset "UTF-8";
-.body-index {
-  background: blanchedalmond;
-}
-.body-index .navbar {
-  background-color: black;
-  text-decoration: none;
-  margin: 0;
-  padding: 10px 40px;
-  overflow: hidden;
-}
-.body-index .navbar-ul li {
-  float: left;
-  text-decoration: none;
-}
-.body-index .barra-nav-imagen {
-  width: 100px;
-  height: 80px;
-  text-decoration: none;
-  animation-name: aparecer;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.body-index .barra-nav-enlaces {
-  text-decoration: none;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 40px;
-}
-.body-index .barra-nav-enlaces.barra-nav-enlaces:hover {
-  background-color: grey;
-  text-decoration: none;
-  color: blue;
-  font-family: "Roboto";
-  font-weight: bold;
-}
-.body-index .search-container {
-  float: right;
-  text-decoration: none;
-}
-.body-index .titulo {
-  color: blue;
-  font-family: "Times New Roman";
-  font-size: 80px;
-  text-decoration: underline;
-  text-decoration-style: bold;
-  text-align: center;
-  transition: infinite;
-  transition: all 3s;
-}
-.body-index .titulo:hover {
-  font-family: "Pacifico";
-  color: red;
-  font-size: 100px;
-}
-.body-index .texto {
-  padding: 25px 25px;
-  font-size: 25px;
-  font-family: "Times New Roman";
-  text-align: justify;
-}
-.body-index .planificaciones {
-  font-size: 80px;
-  font-family: "Times New Roman";
-  text-align: center;
-  text-decoration: underline;
-  color: blue;
-}
-.body-index .planificaciones:hover {
-  color: red;
-  font-family: "Pacifico";
-}
-.body-index .contenedor1 {
-  display: block;
-  justify-content: center;
-  padding: 60px 60px;
-  justify-content: center;
-  text-align: center;
-}
-.body-index .pages {
-  width: 250px;
-  height: 150px;
-  justify-content: center;
-  margin-top: 35px;
-  margin-left: 35px;
-  margin-right: 35px;
-  animation-name: aparecer;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.body-index .datosCreacion {
-  font-size: 25px;
-  font-family: "Arial";
-  text-align: center;
-  text-decoration: none;
-}
-.body-index .logoFinal {
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-  text-align: center;
-}
-.body-index .contenedor2 {
-  display: block;
-  justify-content: center;
-  text-align: center;
-}
-
-.acercaDe-Body {
-  background: blanchedalmond;
-}
-.acercaDe-Body .navbar {
-  background-color: black;
-  text-decoration: none;
-  margin: 0;
-  padding: 10px 40px;
-  overflow: hidden;
-}
-.acercaDe-Body .navbar-ul li {
-  float: left;
-  text-decoration: none;
-}
-.acercaDe-Body .barra-nav-imagen {
-  width: 100px;
-  height: 80px;
-  text-decoration: none;
-  animation-name: aparecer;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.acercaDe-Body .barra-nav-enlaces {
-  text-decoration: none;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 40px;
-}
-.acercaDe-Body .barra-nav-enlaces.barra-nav-enlaces:hover {
-  background-color: grey;
-  text-decoration: none;
-  color: blue;
-  font-family: "Roboto";
-  font-weight: bold;
-}
-.acercaDe-Body .search-container {
-  float: right;
-  text-decoration: none;
-}
-.acercaDe-Body .titulo {
-  color: blue;
-  font-family: "Times New Roman";
-  font-size: 80px;
-  text-decoration: underline;
-  text-decoration-style: bold;
-  text-align: center;
-  transition: infinite;
-  transition: all 3s;
-}
-.acercaDe-Body .titulo:hover {
-  font-family: "Pacifico";
-  color: red;
-  font-size: 100px;
-}
-.acercaDe-Body .texto {
-  padding: 25px 25px;
-  font-size: 25px;
-  font-family: "Times New Roman";
-  text-align: justify;
-}
-.acercaDe-Body .datosCreacion {
-  font-size: 25px;
-  font-family: "Arial";
-  text-align: center;
-  text-decoration: none;
-}
-.acercaDe-Body .logoFinal {
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-  text-align: center;
-}
-.acercaDe-Body .contenedor2 {
-  display: block;
-  justify-content: center;
-  text-align: center;
-}
-
-.educacionI-body {
-  background: blanchedalmond;
-}
-.educacionI-body .navbar {
-  background-color: black;
-  text-decoration: none;
-  margin: 0;
-  padding: 10px 40px;
-  overflow: hidden;
-}
-.educacionI-body .navbar-ul li {
-  float: left;
-  text-decoration: none;
-}
-.educacionI-body .barra-nav-index-imagen {
-  width: 100px;
-  height: 80px;
-  text-decoration: none;
-  animation-name: aparecer;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.educacionI-body .barra-nav-index-enlaces {
-  text-decoration: none;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 40px;
-}
-.educacionI-body .barra-nav-index-enlaces.barra-nav-index-enlaces:hover {
-  background-color: grey;
-  text-decoration: none;
-  color: blue;
-  font-family: "Roboto";
-  font-weight: bold;
-}
-.educacionI-body .search-container {
-  float: right;
-  text-decoration: none;
-}
-.educacionI-body .planificacion-educacionI-titulo {
-  color: blue;
-  font-family: "Times New Roman";
-  font-size: 80px;
-  text-decoration: underline;
-  text-decoration-style: bold;
-  text-align: center;
-  transition: infinite;
-  transition: all 3s;
-}
-.educacionI-body .planificacion-educacionI-titulo:hover {
-  font-family: "Pacifico";
-  color: red;
-  font-size: 100px;
-}
-.educacionI-body .planificacion-educacionI-texto {
-  font-size: 50px;
-  color: black;
-  margin-right: 10px;
-  text-decoration: underline;
-}
-.educacionI-body .planificacion-educacionI-texto:hover {
-  text-transform: uppercase;
-}
-.educacionI-body .planificacion-educacionI-texto1 {
-  font-size: 50px;
-  margin-right: 10px;
-  text-align: center;
-}
-.educacionI-body .planificación-educacionI-otros {
-  font-size: 80px;
-  font-family: "Times New Roman";
-  text-align: center;
-  text-decoration: underline;
-  color: blue;
-}
-.educacionI-body .planificación-educacionI-otros:hover {
-  color: red;
-  font-family: "Pacifico";
-}
-.educacionI-body .planficion-educacionI-capacidades-items {
-  font-size: 40px;
-  font-family: "Roboto";
-}
-.educacionI-body .unidades {
-  display: inline-flex;
-  animation-name: aparecer;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.educacionI-body .imagen {
-  display: inline-flex;
-  padding: 35px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-.educacionI-body .enlacePlanificacion {
-  text-decoration: none;
-  text-align: center;
-}
-.educacionI-body .enlacePlanificacion :hover {
-  color: red;
-  text-align: center;
-}
-.educacionI-body .metodologia {
-  color: blue;
-  font-size: 50px;
-  font-family: "Roboto";
-  animation-name: aparecer;
-  background-color: #4CAF50;
-  border-style: dashed;
-  animation-duration: 3s;
-  margin-left: 600px;
-  margin-right: 600px;
-  animation-iteration-count: infinite;
-}
-.educacionI-body .enlaceRedes {
-  font-size: 50px;
-  font-family: "Roboto";
-  color: black;
-}
-.educacionI-body .carousel-item active {
-  width: 1800px;
-  height: 0, 1% px;
-  padding: 35px 35px;
-}
-.educacionI-body .carousel-inner {
-  width: 1800px;
-  height: 0, 1%;
-  padding: 35px 35px;
-}
-.educacionI-body .carousel-item {
-  width: 1800px;
-  height: 0, 1%;
-  padding: 35px 35px;
-}
-.educacionI-body .datosCreacion {
-  font-size: 25px;
-  font-family: "Arial";
-  text-align: center;
-  text-decoration: none;
-}
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -344,6 +14,115 @@
   100% {
     opacity: 6;
   }
+}
+.body-index, .body-educacionI, .acercaDe-Body {
+  background: blanchedalmond;
+}
+.body-index .navbar, .body-educacionI .navbar, .acercaDe-Body .navbar {
+  background-color: blue;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 40px;
+  overflow: hidden;
+}
+.body-index .navbar-ul-li, .body-educacionI .navbar-ul-li, .acercaDe-Body .navbar-ul-li {
+  float: left;
+  text-decoration: none;
+}
+.body-index .nav-imagen, .body-educacionI .nav-imagen, .acercaDe-Body .nav-imagen {
+  width: 100px;
+  height: 80px;
+  text-decoration: none;
+  animation-name: aparecer;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.body-index .nav-enlaces, .body-educacionI .nav-enlaces, .acercaDe-Body .nav-enlaces {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 40px;
+}
+.body-index .nav-enlaces:hover, .body-educacionI .nav-enlaces:hover, .acercaDe-Body .nav-enlaces:hover {
+  background-color: grey;
+  text-decoration: none;
+  color: blue;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.body-index .search-container, .body-educacionI .search-container, .acercaDe-Body .search-container {
+  float: right;
+  text-decoration: none;
+}
+.body-index .titulo, .body-educacionI .titulo, .acercaDe-Body .titulo {
+  color: blue;
+  font-family: "Times New Roman";
+  font-size: 80px;
+  text-decoration: underline;
+  text-decoration-style: bold;
+  text-align: center;
+  transition: infinite;
+  transition: all 3s;
+}
+.body-index .titulo:hover, .body-educacionI .titulo:hover, .acercaDe-Body .titulo:hover {
+  font-family: "Pacifico";
+  color: red;
+  font-size: 100px;
+}
+.body-index .texto, .body-educacionI .texto, .acercaDe-Body .texto {
+  padding: 25px 25px;
+  font-size: 25px;
+  font-family: "Times New Roman";
+  text-align: justify;
+}
+.body-index .titulo2, .body-educacionI .titulo2, .acercaDe-Body .titulo2 {
+  font-size: 80px;
+  font-family: "Times New Roman";
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+.body-index .titulo2:hover, .body-educacionI .titulo2:hover, .acercaDe-Body .titulo2:hover {
+  color: red;
+  font-family: "Pacifico";
+}
+.body-index .contenedor1, .body-educacionI .contenedor1, .acercaDe-Body .contenedor1 {
+  display: block;
+  justify-content: center;
+  padding: 60px 60px;
+  justify-content: center;
+  text-align: center;
+}
+.body-index .pages, .body-educacionI .pages, .acercaDe-Body .pages {
+  width: 250px;
+  height: 150px;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  animation-name: aparecer;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.body-index .datosCreacion, .body-educacionI .datosCreacion, .acercaDe-Body .datosCreacion {
+  font-size: 25px;
+  font-family: "Arial";
+  text-align: center;
+  text-decoration: none;
+}
+.body-index .logoFinal, .body-educacionI .logoFinal, .acercaDe-Body .logoFinal {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.body-index .contenedor2, .body-educacionI .contenedor2, .acercaDe-Body .contenedor2 {
+  display: block;
+  justify-content: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=Style.css.map */

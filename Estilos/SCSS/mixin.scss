@@ -1,15 +1,15 @@
 @mixin imagenLogo($Size3) {
     width: $Size19;
     height: $Size17;
-    text-decoration: none;
+    text-decoration: $Dec4;
     animation-name: aparecer;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
-@mixin navbar($color3) {
-    background-color: $color3;
-    text-decoration: none;
+@mixin navbar($color2) {
+    background-color: $color2;
+    text-decoration: $Dec4;
     margin: $Size7;
     padding: $Size2 $Size18;
     overflow: $overflow1;
@@ -17,16 +17,18 @@
 }
 
 @mixin enlaces ($Display2) {
-    text-decoration: none;
+    text-decoration: $Dec4;
     display: $Display2;
     color: $color7;
+    font-family: $font3;
+    font-weight: $Dec2;
     text-align: $Alig1;
     padding: $Size8 $Size18;
 }
 
 @mixin enlaces-hover ($color6) {
     background-color: $color6;
-    text-decoration: none;
+    text-decoration: $Dec4;
     color: $color2;
     font-family: $font3;
     font-weight: $Dec2;
@@ -37,12 +39,12 @@
     color: $color7;
     text-align: $Alig1;
     padding: $Size8 $Size18;
-    text-decoration: none;
+    text-decoration: $Dec4;
 }
 
 @mixin li-a-hover ($color6) {
     background-color: $color6;
-    text-decoration: none;
+    text-decoration: $Dec4;
     color: $color2;
     font-family: $font3;
     font-weight: $Dec2;
@@ -160,4 +162,31 @@
     height: $Size19;
     justify-content: $Alig1;
     text-align: $Alig1;
+}
+
+@mixin flecha1($Size19) {
+    margin-right: $Size6;
+    width: $Size19;
+    height: $Size17;
+}
+
+@mixin index($Size16) {
+    font-size: $Size16;
+    margin-right: $Size26;
+    text-decoration: $Dec4;
+}
+@mixin transicion1($Size5){
+    border-radius: $Size5;   
+    background-color: $color6;
+    border-style: $borderE1; 
+    animation-name: aparecer;  
+    color: $color1;   
+    animation-duration: 3s;        
+    animation-iteration-count: infinite;
+}
+@mixin enlace-index($Size16){
+   font-size: $Size16;
+   font-family: $font5; 
+   color: $color1;
+   text-decoration: $Dec2 $Dec5;
 }
