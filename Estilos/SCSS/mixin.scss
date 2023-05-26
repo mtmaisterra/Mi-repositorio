@@ -1,53 +1,163 @@
-@mixin boton-estilo($color5) {
-    background-color: $color5;
-    padding: $Size2 $Size6;
-    border-radius: $Size5;
-    font-size: $fontT7 ;
-    font-family: $font1;
-    text-decoration: $Dec2;
-}
-
-
-@mixin nav-item($color2) {
-    text-decoration: $Dec4;
-    background-color: $color2;
-    width: $Size23;
+@mixin imagenLogo($Size3) {
+    width: $Size19;
     height: $Size17;
-    border-color: $color3;
-    border: $borderT2;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
-@mixin nav-link($color7) {
-    padding: $Size5;
+@mixin navbar($color3) {
+    background-color: $color3;
+    text-decoration: none;
+    margin: $Size7;
+    padding: $Size2 $Size18;
+    overflow: $overflow1;
+
+}
+
+@mixin enlaces ($Display2) {
+    text-decoration: none;
+    display: $Display2;
     color: $color7;
     text-align: $Alig1;
-    margin-top: $Size5;
-    text-decoration: $Dec4;
-    margin-right: $Size3 ;
-    margin-left: $Size3;
-    font-size: $fontT5;
+    padding: $Size8 $Size18;
 }
 
-@mixin titulo ($color2) {
-    font-family: $font1;
-    color: $color2;
-    font-size: $fontT1;
-    text-decoration: $Dec1 $Dec2;
-    text-align: $tAlig1;
-    transition: infinite;
-    transition: all 2s;
-
-}
-
-@mixin metodologia ($color2) {
-    font-size: $fontT3;
-    font-family: $font3;
-    color: $color2;
-    animation-name: aparecer;
+@mixin enlaces-hover ($color6) {
     background-color: $color6;
+    text-decoration: none;
+    color: $color2;
+    font-family: $font3;
+    font-weight: $Dec2;
+}
+
+@mixin li-a ($Display2) {
+    display: $Display2;
+    color: $color7;
+    text-align: $Alig1;
+    padding: $Size8 $Size18;
+    text-decoration: none;
+}
+
+@mixin li-a-hover ($color6) {
+    background-color: $color6;
+    text-decoration: none;
+    color: $color2;
+    font-family: $font3;
+    font-weight: $Dec2;
+}
+
+@mixin imagen ($Size4) {
+    display: $Display3;
+    width: $Size4;
+    height: $Size24;
+    margin-top: $Size6;
+    padding: $Size16 $Size16;
+    border-color: $color3;
+    border: $Size2;
+}
+
+@mixin texto($Size21) {
+    padding: $Size21 $Size21;
+    font-size: $Size21;
+    font-family: $font1;
+    text-align: $Alig2;
+}
+
+@mixin educacionITexto($Size20) {
+    font-size: $Size20;
+    color: $color3;
+    margin-right: $Size2;
+    text-decoration: $Dec1;
+}
+
+@mixin educacionI-texto1($Size20) {
+    font-size: $Size20;
+    margin-right: $Size2;
+    text-align: $Alig1;
+}
+
+@mixin educacionI-otros($Size17) {
+    font-size: $Size17;
+    font-family: $font1;
+    text-align: $Alig1;
+    text-decoration: $Dec1;
+    color: $color2;
+}
+
+@mixin titulo($color2) {
+    color: $color2;
+    font-family: $font1;
+    font-size: $Size17;
+    text-decoration: $Dec1;
+    text-decoration-style: $Dec2;
+    text-align: $Alig1;
+    transition: infinite;
+    transition: all 3s;
+}
+
+@mixin metodologia($color2) {
+    color: $color2;
+    font-size: $Size20;
+    font-family: $font3;
+    animation-name: aparecer;
+    background-color: $color8;
     border-style: $borderE1;
     animation-duration: 3s;
-    margin-left: $marginSize4;
-    margin-right: $marginSize4;
+    margin-left: $Size4;
+    margin-right: $Size4;
     animation-iteration-count: infinite;
+}
+
+@mixin imagen1($Display1) {
+    display: $Display1;
+    padding: $Size3;
+    margin-left: $Size1;
+    margin-right: $Size1;
+}
+
+@mixin datos($Size21) {
+    font-size: $Size21;
+    font-family: $font4;
+    text-align: $Alig1;
+    text-decoration: $Dec4;
+}
+
+@mixin paginas($Size4) {
+    width: $Size4;
+    height: $Size12;
+    margin-left: $Size1;
+    margin-right: $Size1;
+    text-align: center;
+}
+
+@mixin enlacesClassRoom($Size25) {
+    width: $Size25;
+    height: $Size26;
+    justify-content: $Alig1;
+    margin-top: $Size3;
+    margin-left: $Size3;
+    margin-right: $Size3;
+}
+
+@mixin contenedor1 ($Display2) {
+    display: $Display2;
+    justify-content: $Alig1;
+    padding: $Size16 $Size16;
+    justify-content: $Alig1;
+    text-align: $Alig1;
+}
+
+@mixin contenedor2 ($Display2) {
+    display: $Display2;
+    justify-content: $Alig1;
+    text-align: $Alig1;
+}
+
+@mixin logoFinal($Size19) {
+    width: $Size19;
+    height: $Size19;
+    justify-content: $Alig1;
+    text-align: $Alig1;
 }
