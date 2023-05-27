@@ -102,10 +102,92 @@
 
 .acercaDe-Body {
     @extend .body-index;
-  
+
+    .volver {
+        @include flecha1(100px);
+        @include transicion1(5px);
+    }
+
+    .enlace-index {
+        @include index(60px);
+
+        &:hover {
+            @include enlace-index(60px);
+        }
+    }
+
 }
 
 .body-educacionI {
-    @extend .body-index;
-   
+    @extend .acercaDe-Body;
+
+    .texto1 {
+        @include texto1(40px);
+    }
+
+    .classRoom {
+        @include texto1(40px);
+        text-decoration: $Dec4;
+
+        &:hover {
+            color: $color1;
+            font-family: $font3;
+        }
+    }
+}
+
+.body-educacionII {
+    @extend .body-educacionI;
+}
+
+.body-informatica {
+    @extend .body-educacionI;
+}
+
+.body-informatica {
+    @extend .body-educacionI;
+}
+
+.body-operaciones {
+    @extend .body-educacionI;
+}
+
+.body-marketing {
+    @extend .body-educacionI;
+}
+
+.body-contacto {
+    @extend .body-educacionI;
+}
+
+.body-suscribir {
+    
+    .titulo {
+        font-size: $Size20;
+
+        &:hover {
+            @include hoverTitulo(60px);
+        }
+    }
+
+    .ingrese {
+        @include ingrese(100%);
+    }
+
+    .datos {
+        @include datos(100%);
+    }
+
+    .condiciones {
+        @include condiciones("Arial");
+    }
+
+    .enviar {
+        @include enviar(20px);
+
+        &:hover {
+            font-family: $font1;
+            color: $color2;
+        }
+    }
 }

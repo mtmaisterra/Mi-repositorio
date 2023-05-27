@@ -131,7 +131,7 @@
     height: $Size12;
     margin-left: $Size1;
     margin-right: $Size1;
-    text-align: center;
+    text-align: $Alig1;
 }
 
 @mixin enlacesClassRoom($Size25) {
@@ -175,18 +175,61 @@
     margin-right: $Size26;
     text-decoration: $Dec4;
 }
-@mixin transicion1($Size5){
-    border-radius: $Size5;   
+
+@mixin transicion1($Size5) {
+    border-radius: $Size5;
     background-color: $color6;
-    border-style: $borderE1; 
-    animation-name: aparecer;  
-    color: $color1;   
-    animation-duration: 3s;        
+    border-style: $borderE1;
+    animation-name: aparecer;
+    color: $color1;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-@mixin enlace-index($Size16){
-   font-size: $Size16;
-   font-family: $font5; 
-   color: $color1;
-   text-decoration: $Dec2 $Dec5;
+
+@mixin enlace-index($Size16) {
+    font-size: $Size16;
+    font-family: $font5;
+    color: $color1;
+    text-decoration: $Dec2 $Dec5;
+}
+
+@mixin texto1($Size18) {
+    font-size: $Size18;
+    padding: $Size21 $Size21;
+    font-family: $font1;
+    text-align: $Alig2;
+}
+
+@mixin hoverTitulo($Size16) {
+    font-size: $Size16;
+    color: $color2;
+    border-style: $borderE4;
+}
+
+@mixin ingrese($Size15) {
+    width: $Size15;
+    text-align: $Alig1;
+    font-size: $Size6;
+    color: $color3;
+    font-family: $font1;
+}
+
+@mixin datos($Size15) {
+    width: $Size15;
+    text-align: $Alig1;
+    font-family: $font6;
+    border-radius: $Size28;
+    font-size: $Size6;
+    color: $color3;
+}
+@mixin condiciones($font4){
+font-family: $font4;
+text-align: $Alig1;
+font-size: $Size1;
+}
+@mixin enviar($Size6){
+    font-size: $Size6;
+        align-content: $Alig1;
+        font-weight: $Dec2;
+        bottom: $Alig1;
 }
