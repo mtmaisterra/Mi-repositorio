@@ -184,9 +184,13 @@
     }
 }
 .body-contacto{
-@extend .body-index;
+    @extend .body-educacionI;
 .contenedor4{
    @include contenedor4(400px);
+}
+.volver {
+    @include flecha1(100px);
+    @include transicion1(5px);
 }
 .imagenes2{
     @include logoFinal(100px);
@@ -197,7 +201,7 @@
 }
 }
 .body-usuario{
-    @extend .body-index;
+    @extend .body-educacionI;
 .contenedor3{
     @include contenedor3 (800px);
    
