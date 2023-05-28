@@ -156,12 +156,19 @@
     justify-content: $Alig1;
     text-align: $Alig1;
 }
-
 @mixin logoFinal($Size19) {
     width: $Size19;
     height: $Size19;
     justify-content: $Alig1;
     text-align: $Alig1;
+  
+}
+@mixin imagenesContacto($Size17) {
+    width: $Size17;
+    height: $Size17;
+    justify-content: $Alig1;
+    text-align: $Alig1;
+   
 }
 
 @mixin flecha1($Size19) {
