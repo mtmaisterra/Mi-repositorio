@@ -5,10 +5,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = $_POST["mail"];
     $fecha_nacimiento = $_POST["fecha_nacimiento"];
     $direccion = $_POST["direccion"];
-    $localidad = $_POST["localidad"];
+    $localidad =$_POST["localidad"];
     $nombre_usuario = $_POST["nombre_usuario"];
     $contraseña = $_POST["contraseña"];
-    $Ncontraseña = $_POST["Ncontraseña"];
+    $Ncontraseña =$_POST["Ncontraseña"];
 
     
     // Aquí puedes procesar los datos recibidos, como almacenarlos en una base de datos o enviar un correo electrónico de confirmación.

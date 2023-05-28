@@ -2,9 +2,9 @@
     width: $Size19;
     height: $Size17;
     text-decoration: $Dec4;
-    animation-name: aparecer;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-name: $animacion1;
+    animation-duration: $duracion1;
+    animation-iteration-count: $count1;
 }
 
 @mixin navbar($color2) {
@@ -95,21 +95,21 @@
     text-decoration: $Dec1;
     text-decoration-style: $Dec2;
     text-align: $Alig1;
-    transition: infinite;
-    transition: all 3s;
+    transition: $count1;
+    transition: all $duracion1;
 }
 
 @mixin metodologia($color2) {
     color: $color2;
     font-size: $Size20;
     font-family: $font3;
-    animation-name: aparecer;
+    animation-name: $animacion1;
     background-color: $color8;
     border-style: $borderE1;
-    animation-duration: 3s;
+    animation-duration: $duracion1;
     margin-left: $Size4;
     margin-right: $Size4;
-    animation-iteration-count: infinite;
+    animation-iteration-count: $count1;
 }
 
 @mixin imagen1($Display1) {
@@ -180,10 +180,10 @@
     border-radius: $Size5;
     background-color: $color6;
     border-style: $borderE1;
-    animation-name: aparecer;
+    animation-name: $animacion1;
     color: $color1;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-duration: $duracion1;
+    animation-iteration-count: $count1;
 }
 
 @mixin enlace-index($Size16) {
@@ -206,15 +206,38 @@
     border-style: $borderE4;
 }
 
-@mixin ingrese($Size15) {
-    width: $Size15;
-    text-align: $Alig1;
-    font-size: $Size6;
-    color: $color3;
-    font-family: $font1;
+@mixin body-suscribir($Size7) {
+    margin: $Size7;
+    padding: $Size7;
+    box-sizing: $Sizing1;
+    background: $color4;
 }
 
-@mixin datos($Size15) {
+@mixin registro($Size12) {
+    width: $Size12;
+    text-align: $Alig1;
+    background-color: $color10;
+    padding: $Size29;
+    margin: $Size23;
+    margin-top: $Size19;
+    border-radius: $Size28;
+    font-family: $font3;
+    color: $color7;
+    box-shadow: $Size30 $Size31 $Size32 $color11;
+}
+
+@mixin ingrese($Size34) {
+    width: $Size34;
+    text-align: $Alig1;
+    background: $color10;
+    padding: $Size2;
+    margin-bottom: $Size9;
+    font-family: $font3;
+    font-size: $Size36;
+    color: $color7;
+}
+
+@mixin datos1($Size15) {
     width: $Size15;
     text-align: $Alig1;
     font-family: $font6;
@@ -222,14 +245,41 @@
     font-size: $Size6;
     color: $color3;
 }
-@mixin condiciones($font4){
-font-family: $font4;
-text-align: $Alig1;
-font-size: $Size1;
+
+@mixin condiciones($font4) {
+    font-family: $font4;
+    text-align: $Alig1;
+    font-size: $Size1;
 }
-@mixin enviar($Size6){
+
+@mixin enviar($Size6) {
     font-size: $Size6;
-        align-content: $Alig1;
-        font-weight: $Dec2;
-        bottom: $Alig1;
+    align-content: $Alig1;
+    font-weight: $Dec2;
+    bottom: $Alig1;
 }
+@mixin contenedor4($Size24){
+    width: $Size24;
+    text-align: $Alig1;
+    background-color: $color10;
+    padding: $Size29;
+    margin: $Size23;
+    margin-top: $Size19;
+    border-radius: $Size28;
+    font-family: $font3;
+    color: $color7;
+    box-shadow: $Size30 $Size31 $Size32 $color11;}
+@mixin contenedor3 ($Size24){
+    width: $Size24;
+    text-align: $Alig1;
+    background-color: $color10;
+    padding: $Size29;
+    margin: $Size23;
+    margin-top: $Size19;
+    border-radius: $Size28;
+    font-family: $font3;
+    color: $color7;
+    box-shadow: $Size30 $Size31 $Size32 $color11;
+}
+@mixin redes{}
+@mixin imagenes2{}

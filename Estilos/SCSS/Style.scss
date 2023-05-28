@@ -144,10 +144,6 @@
     @extend .body-educacionI;
 }
 
-.body-informatica {
-    @extend .body-educacionI;
-}
-
 .body-operaciones {
     @extend .body-educacionI;
 }
@@ -156,26 +152,22 @@
     @extend .body-educacionI;
 }
 
-.body-contacto {
-    @extend .body-educacionI;
-}
-
 .body-suscribir {
-    
-    .titulo {
-        font-size: $Size20;
-
-        &:hover {
-            @include hoverTitulo(60px);
-        }
+    @include body-suscribir(0px);
+    .formulario-registro{
+       @include registro(400px);
+    }
+    .tituloR {
+       font-size: $Size33;
+       margin-bottom: $Size6;        
     }
 
     .ingrese {
-        @include ingrese(100%);
+        @include ingrese(95%);
     }
 
     .datos {
-        @include datos(100%);
+        @include datos1(100%);
     }
 
     .condiciones {
@@ -190,4 +182,24 @@
             color: $color2;
         }
     }
+}
+.body-contacto{
+@extend .body-index;
+.contenedor4{
+   @include contenedor4(400px);
+}
+.imagenes2{
+    @include logoFinal(100px);
+}
+.redes{
+    @include texto(25px);
+    text-align: center;
+}
+}
+.body-usuario{
+    @extend .body-index;
+.contenedor3{
+    @include contenedor3 (800px);
+   
+}
 }
