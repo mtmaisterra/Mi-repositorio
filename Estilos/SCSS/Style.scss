@@ -37,7 +37,10 @@
     }
 
     .nav-imagen {
-        @include imagenLogo(60px);
+        @include imagenLogo(80px);
+    }
+    .search-button{
+        margin-right: $Size3;
     }
 
     .nav-enlaces {
@@ -54,7 +57,7 @@
     }
 
     .titulo {
-        @include titulo(blue);
+        @include titulo(80px);
 
         &:hover {
             font-family: $font2;

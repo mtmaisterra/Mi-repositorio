@@ -19,10 +19,10 @@
   background: blanchedalmond;
 }
 .body-index .navbar, .acercaDe-Body .navbar, .body-educacionI .navbar, .body-usuario .navbar, .body-contacto .navbar, .body-marketing .navbar, .body-operaciones .navbar, .body-informatica .navbar, .body-educacionII .navbar {
+  padding: blue;
+  margin: 0;
   background-color: blue;
   text-decoration: none;
-  margin: 0;
-  padding: 10px 40px;
   overflow: hidden;
 }
 .body-index .navbar-ul-li, .acercaDe-Body .navbar-ul-li, .body-educacionI .navbar-ul-li, .body-usuario .navbar-ul-li, .body-contacto .navbar-ul-li, .body-marketing .navbar-ul-li, .body-operaciones .navbar-ul-li, .body-informatica .navbar-ul-li, .body-educacionII .navbar-ul-li {
@@ -30,12 +30,16 @@
   text-decoration: none;
 }
 .body-index .nav-imagen, .acercaDe-Body .nav-imagen, .body-educacionI .nav-imagen, .body-usuario .nav-imagen, .body-contacto .nav-imagen, .body-marketing .nav-imagen, .body-operaciones .nav-imagen, .body-informatica .nav-imagen, .body-educacionII .nav-imagen {
-  width: 100px;
-  height: 80px;
+  width: 80px;
+  height: 60px;
+  margin-left: 35px;
   text-decoration: none;
   animation-name: aparecer;
-  animation-duration: 3s;
+  animation-duration: 0.7s;
   animation-iteration-count: infinite;
+}
+.body-index .search-button, .acercaDe-Body .search-button, .body-educacionI .search-button, .body-usuario .search-button, .body-contacto .search-button, .body-marketing .search-button, .body-operaciones .search-button, .body-informatica .search-button, .body-educacionII .search-button {
+  margin-right: 35px;
 }
 .body-index .nav-enlaces, .acercaDe-Body .nav-enlaces, .body-educacionI .nav-enlaces, .body-usuario .nav-enlaces, .body-contacto .nav-enlaces, .body-marketing .nav-enlaces, .body-operaciones .nav-enlaces, .body-informatica .nav-enlaces, .body-educacionII .nav-enlaces {
   text-decoration: none;
@@ -44,7 +48,7 @@
   font-family: "Roboto";
   font-weight: bold;
   text-align: center;
-  padding: 14px 40px;
+  padding: 15px;
 }
 .body-index .nav-enlaces:hover, .acercaDe-Body .nav-enlaces:hover, .body-educacionI .nav-enlaces:hover, .body-usuario .nav-enlaces:hover, .body-contacto .nav-enlaces:hover, .body-marketing .nav-enlaces:hover, .body-operaciones .nav-enlaces:hover, .body-informatica .nav-enlaces:hover, .body-educacionII .nav-enlaces:hover {
   background-color: grey;
@@ -58,6 +62,7 @@
   text-decoration: none;
 }
 .body-index .titulo, .acercaDe-Body .titulo, .body-educacionI .titulo, .body-usuario .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
+  margin-top: 80px;
   color: blue;
   font-family: "Times New Roman";
   font-size: 80px;
@@ -65,7 +70,7 @@
   text-decoration-style: bold;
   text-align: center;
   transition: infinite;
-  transition: all 3s;
+  transition: all 0.7s;
 }
 .body-index .titulo:hover, .acercaDe-Body .titulo:hover, .body-educacionI .titulo:hover, .body-usuario .titulo:hover, .body-contacto .titulo:hover, .body-marketing .titulo:hover, .body-operaciones .titulo:hover, .body-informatica .titulo:hover, .body-educacionII .titulo:hover {
   font-family: "Pacifico";
@@ -134,7 +139,7 @@
   border-style: dashed;
   animation-name: aparecer;
   color: red;
-  animation-duration: 3s;
+  animation-duration: 0.7s;
   animation-iteration-count: infinite;
 }
 .acercaDe-Body .enlace-index, .body-educacionI .enlace-index, .body-usuario .enlace-index, .body-contacto .enlace-index, .body-marketing .enlace-index, .body-operaciones .enlace-index, .body-informatica .enlace-index, .body-educacionII .enlace-index {
@@ -244,7 +249,7 @@
   border-style: dashed;
   animation-name: aparecer;
   color: red;
-  animation-duration: 3s;
+  animation-duration: 0.7s;
   animation-iteration-count: infinite;
 }
 .body-contacto .imagenes2 {

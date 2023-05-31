@@ -1,19 +1,19 @@
-@mixin imagenLogo($Size3) {
-    width: $Size19;
-    height: $Size17;
+@mixin imagenLogo($Size17) {
+    width: $Size17;
+    height: $Size16;
+    margin-left: $Size3;
     text-decoration: $Dec4;
     animation-name: $animacion1;
     animation-duration: $duracion1;
     animation-iteration-count: $count1;
 }
 
-@mixin navbar($color2) {
+@mixin navbar($Size1) {
+    padding: $Size1;
+    margin: $Size7;
     background-color: $color2;
     text-decoration: $Dec4;
-    margin: $Size7;
-    padding: $Size2 $Size18;
     overflow: $overflow1;
-
 }
 
 @mixin enlaces ($Display2) {
@@ -23,7 +23,7 @@
     font-family: $font3;
     font-weight: $Dec2;
     text-align: $Alig1;
-    padding: $Size8 $Size18;
+    padding: $Size1;
 }
 
 @mixin enlaces-hover ($color6) {
@@ -88,7 +88,8 @@
     color: $color2;
 }
 
-@mixin titulo($color2) {
+@mixin titulo($Size17) {
+    margin-top: $Size17;
     color: $color2;
     font-family: $font1;
     font-size: $Size17;
@@ -156,19 +157,21 @@
     justify-content: $Alig1;
     text-align: $Alig1;
 }
+
 @mixin logoFinal($Size19) {
     width: $Size19;
     height: $Size19;
     justify-content: $Alig1;
     text-align: $Alig1;
-  
+
 }
+
 @mixin imagenesContacto($Size17) {
     width: $Size17;
     height: $Size17;
     justify-content: $Alig1;
     text-align: $Alig1;
-   
+
 }
 
 @mixin flecha1($Size19) {
@@ -265,7 +268,8 @@
     font-weight: $Dec2;
     bottom: $Alig1;
 }
-@mixin contenedor4($Size24){
+
+@mixin contenedor4($Size24) {
     width: $Size24;
     text-align: $Alig1;
     background-color: $color10;
@@ -275,8 +279,10 @@
     border-radius: $Size28;
     font-family: $font3;
     color: $color7;
-    box-shadow: $Size30 $Size31 $Size32 $color11;}
-@mixin contenedor3 ($Size24){
+    box-shadow: $Size30 $Size31 $Size32 $color11;
+}
+
+@mixin contenedor3 ($Size24) {
     width: $Size24;
     text-align: $Alig1;
     background-color: $color10;
