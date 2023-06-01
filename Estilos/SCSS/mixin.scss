@@ -62,6 +62,7 @@
 
 @mixin texto($Size21) {
     padding: $Size21 $Size21;
+    margin-top: $Size18;
     font-size: $Size21;
     font-family: $font1;
     text-align: $Alig2;
@@ -82,6 +83,7 @@
 
 @mixin educacionI-otros($Size17) {
     font-size: $Size17;
+    margin-top: $Size18;
     font-family: $font1;
     text-align: $Alig1;
     text-decoration: $Dec1;
@@ -120,7 +122,8 @@
     margin-right: $Size1;
 }
 
-@mixin datos($Size21) {
+@mixin datos($Size6) {
+    margin-top: $Size6;
     font-size: $Size21;
     font-family: $font4;
     text-align: $Alig1;
@@ -154,6 +157,7 @@
 
 @mixin contenedor2 ($Display2) {
     display: $Display2;
+    margin-top: $Size18;
     justify-content: $Alig1;
     text-align: $Alig1;
 }

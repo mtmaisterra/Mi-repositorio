@@ -79,12 +79,14 @@
 }
 .body-index .texto, .acercaDe-Body .texto, .body-educacionI .texto, .body-usuario .texto, .body-contacto .texto, .body-marketing .texto, .body-operaciones .texto, .body-informatica .texto, .body-educacionII .texto {
   padding: 25px 25px;
+  margin-top: 40px;
   font-size: 25px;
   font-family: "Times New Roman";
   text-align: justify;
 }
 .body-index .titulo2, .acercaDe-Body .titulo2, .body-educacionI .titulo2, .body-usuario .titulo2, .body-contacto .titulo2, .body-marketing .titulo2, .body-operaciones .titulo2, .body-informatica .titulo2, .body-educacionII .titulo2 {
   font-size: 80px;
+  margin-top: 40px;
   font-family: "Times New Roman";
   text-align: center;
   text-decoration: underline;
@@ -113,6 +115,7 @@
   animation-iteration-count: infinite;
 }
 .body-index .datosCreacion, .acercaDe-Body .datosCreacion, .body-educacionI .datosCreacion, .body-usuario .datosCreacion, .body-contacto .datosCreacion, .body-marketing .datosCreacion, .body-operaciones .datosCreacion, .body-informatica .datosCreacion, .body-educacionII .datosCreacion {
+  margin-top: 20px;
   font-size: 25px;
   font-family: "Arial";
   text-align: center;
@@ -126,6 +129,7 @@
 }
 .body-index .contenedor2, .acercaDe-Body .contenedor2, .body-educacionI .contenedor2, .body-usuario .contenedor2, .body-contacto .contenedor2, .body-marketing .contenedor2, .body-operaciones .contenedor2, .body-informatica .contenedor2, .body-educacionII .contenedor2 {
   display: block;
+  margin-top: 40px;
   justify-content: center;
   text-align: center;
 }
@@ -260,6 +264,7 @@
 }
 .body-contacto .redes {
   padding: 25px 25px;
+  margin-top: 40px;
   font-size: 25px;
   font-family: "Times New Roman";
   text-align: justify;
