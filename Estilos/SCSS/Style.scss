@@ -39,7 +39,8 @@
     .nav-imagen {
         @include imagenLogo(80px);
     }
-    .search-button{
+
+    .search-button {
         margin-right: $Size3;
     }
 
@@ -155,58 +156,25 @@
     @extend .body-educacionI;
 }
 
-.body-suscribir {
-    @include body-suscribir(0px);
-    .formulario-registro{
-       @include registro(400px);
-    }
-    .tituloR {
-       font-size: $Size33;
-       margin-bottom: $Size6;        
-    }
 
-    .ingrese {
-        @include ingrese(95%);
-    }
-
-    .datos {
-        @include datos1(100%);
-    }
-
-    .condiciones {
-        @include condiciones("Arial");
-    }
-
-    .enviar {
-        @include enviar(20px);
-
-        &:hover {
-            font-family: $font1;
-            color: $color2;
-        }
-    }
-}
-.body-contacto{
+.body-contacto {
     @extend .body-educacionI;
-.contenedor4{
-   @include contenedor4(400px);
-}
-.volver {
-    @include flecha1(100px);
-    @include transicion1(5px);
-}
-.imagenes2{
-    @include imagenesContacto(80px);
-}
-.redes{
-    @include texto(25px);
-    text-align: center;
-}
-}
-.body-usuario{
-    @extend .body-educacionI;
-.contenedor3{
-    @include contenedor3 (800px);
-   
-}
+
+    .contenedor4 {
+        @include contenedor4(400px);
+    }
+
+    .volver {
+        @include flecha1(100px);
+        @include transicion1(5px);
+    }
+
+    .imagenes2 {
+        @include imagenesContacto(35px);
+    }
+
+    .redes {
+        @include texto(25px);
+        text-align: center;
+    }
 }

@@ -11,6 +11,7 @@
 @mixin navbar($Size1) {
     padding: $Size1;
     margin: $Size7;
+    text-align: $Alig1;
     background-color: $color2;
     text-decoration: $Dec4;
     overflow: $overflow1;
@@ -170,9 +171,10 @@
 
 }
 
-@mixin imagenesContacto($Size17) {
+@mixin imagenesContacto($Size3) {
+    margin-top: $Size3; 
     width: $Size17;
-    height: $Size17;
+    height: $Size17;   
     justify-content: $Alig1;
     text-align: $Alig1;
 

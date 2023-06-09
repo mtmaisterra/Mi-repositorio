@@ -15,21 +15,22 @@
     opacity: 6;
   }
 }
-.body-index, .acercaDe-Body, .body-educacionI, .body-usuario, .body-contacto, .body-marketing, .body-operaciones, .body-informatica, .body-educacionII {
+.body-index, .acercaDe-Body, .body-educacionI, .body-contacto, .body-marketing, .body-operaciones, .body-informatica, .body-educacionII {
   background: blanchedalmond;
 }
-.body-index .navbar, .acercaDe-Body .navbar, .body-educacionI .navbar, .body-usuario .navbar, .body-contacto .navbar, .body-marketing .navbar, .body-operaciones .navbar, .body-informatica .navbar, .body-educacionII .navbar {
+.body-index .navbar, .acercaDe-Body .navbar, .body-educacionI .navbar, .body-contacto .navbar, .body-marketing .navbar, .body-operaciones .navbar, .body-informatica .navbar, .body-educacionII .navbar {
   padding: blue;
   margin: 0;
+  text-align: center;
   background-color: blue;
   text-decoration: none;
   overflow: hidden;
 }
-.body-index .navbar-ul-li, .acercaDe-Body .navbar-ul-li, .body-educacionI .navbar-ul-li, .body-usuario .navbar-ul-li, .body-contacto .navbar-ul-li, .body-marketing .navbar-ul-li, .body-operaciones .navbar-ul-li, .body-informatica .navbar-ul-li, .body-educacionII .navbar-ul-li {
+.body-index .navbar-ul-li, .acercaDe-Body .navbar-ul-li, .body-educacionI .navbar-ul-li, .body-contacto .navbar-ul-li, .body-marketing .navbar-ul-li, .body-operaciones .navbar-ul-li, .body-informatica .navbar-ul-li, .body-educacionII .navbar-ul-li {
   float: left;
   text-decoration: none;
 }
-.body-index .nav-imagen, .acercaDe-Body .nav-imagen, .body-educacionI .nav-imagen, .body-usuario .nav-imagen, .body-contacto .nav-imagen, .body-marketing .nav-imagen, .body-operaciones .nav-imagen, .body-informatica .nav-imagen, .body-educacionII .nav-imagen {
+.body-index .nav-imagen, .acercaDe-Body .nav-imagen, .body-educacionI .nav-imagen, .body-contacto .nav-imagen, .body-marketing .nav-imagen, .body-operaciones .nav-imagen, .body-informatica .nav-imagen, .body-educacionII .nav-imagen {
   width: 80px;
   height: 60px;
   margin-left: 35px;
@@ -38,10 +39,10 @@
   animation-duration: 0.7s;
   animation-iteration-count: infinite;
 }
-.body-index .search-button, .acercaDe-Body .search-button, .body-educacionI .search-button, .body-usuario .search-button, .body-contacto .search-button, .body-marketing .search-button, .body-operaciones .search-button, .body-informatica .search-button, .body-educacionII .search-button {
+.body-index .search-button, .acercaDe-Body .search-button, .body-educacionI .search-button, .body-contacto .search-button, .body-marketing .search-button, .body-operaciones .search-button, .body-informatica .search-button, .body-educacionII .search-button {
   margin-right: 35px;
 }
-.body-index .nav-enlaces, .acercaDe-Body .nav-enlaces, .body-educacionI .nav-enlaces, .body-usuario .nav-enlaces, .body-contacto .nav-enlaces, .body-marketing .nav-enlaces, .body-operaciones .nav-enlaces, .body-informatica .nav-enlaces, .body-educacionII .nav-enlaces {
+.body-index .nav-enlaces, .acercaDe-Body .nav-enlaces, .body-educacionI .nav-enlaces, .body-contacto .nav-enlaces, .body-marketing .nav-enlaces, .body-operaciones .nav-enlaces, .body-informatica .nav-enlaces, .body-educacionII .nav-enlaces {
   text-decoration: none;
   display: block;
   color: white;
@@ -50,18 +51,18 @@
   text-align: center;
   padding: 15px;
 }
-.body-index .nav-enlaces:hover, .acercaDe-Body .nav-enlaces:hover, .body-educacionI .nav-enlaces:hover, .body-usuario .nav-enlaces:hover, .body-contacto .nav-enlaces:hover, .body-marketing .nav-enlaces:hover, .body-operaciones .nav-enlaces:hover, .body-informatica .nav-enlaces:hover, .body-educacionII .nav-enlaces:hover {
+.body-index .nav-enlaces:hover, .acercaDe-Body .nav-enlaces:hover, .body-educacionI .nav-enlaces:hover, .body-contacto .nav-enlaces:hover, .body-marketing .nav-enlaces:hover, .body-operaciones .nav-enlaces:hover, .body-informatica .nav-enlaces:hover, .body-educacionII .nav-enlaces:hover {
   background-color: grey;
   text-decoration: none;
   color: blue;
   font-family: "Roboto";
   font-weight: bold;
 }
-.body-index .search-container, .acercaDe-Body .search-container, .body-educacionI .search-container, .body-usuario .search-container, .body-contacto .search-container, .body-marketing .search-container, .body-operaciones .search-container, .body-informatica .search-container, .body-educacionII .search-container {
+.body-index .search-container, .acercaDe-Body .search-container, .body-educacionI .search-container, .body-contacto .search-container, .body-marketing .search-container, .body-operaciones .search-container, .body-informatica .search-container, .body-educacionII .search-container {
   float: right;
   text-decoration: none;
 }
-.body-index .titulo, .acercaDe-Body .titulo, .body-educacionI .titulo, .body-usuario .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
+.body-index .titulo, .acercaDe-Body .titulo, .body-educacionI .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
   margin-top: 80px;
   color: blue;
   font-family: "Times New Roman";
@@ -72,19 +73,19 @@
   transition: infinite;
   transition: all 0.7s;
 }
-.body-index .titulo:hover, .acercaDe-Body .titulo:hover, .body-educacionI .titulo:hover, .body-usuario .titulo:hover, .body-contacto .titulo:hover, .body-marketing .titulo:hover, .body-operaciones .titulo:hover, .body-informatica .titulo:hover, .body-educacionII .titulo:hover {
+.body-index .titulo:hover, .acercaDe-Body .titulo:hover, .body-educacionI .titulo:hover, .body-contacto .titulo:hover, .body-marketing .titulo:hover, .body-operaciones .titulo:hover, .body-informatica .titulo:hover, .body-educacionII .titulo:hover {
   font-family: "Pacifico";
   color: red;
   font-size: 100px;
 }
-.body-index .texto, .acercaDe-Body .texto, .body-educacionI .texto, .body-usuario .texto, .body-contacto .texto, .body-marketing .texto, .body-operaciones .texto, .body-informatica .texto, .body-educacionII .texto {
+.body-index .texto, .acercaDe-Body .texto, .body-educacionI .texto, .body-contacto .texto, .body-marketing .texto, .body-operaciones .texto, .body-informatica .texto, .body-educacionII .texto {
   padding: 25px 25px;
   margin-top: 40px;
   font-size: 25px;
   font-family: "Times New Roman";
   text-align: justify;
 }
-.body-index .titulo2, .acercaDe-Body .titulo2, .body-educacionI .titulo2, .body-usuario .titulo2, .body-contacto .titulo2, .body-marketing .titulo2, .body-operaciones .titulo2, .body-informatica .titulo2, .body-educacionII .titulo2 {
+.body-index .titulo2, .acercaDe-Body .titulo2, .body-educacionI .titulo2, .body-contacto .titulo2, .body-marketing .titulo2, .body-operaciones .titulo2, .body-informatica .titulo2, .body-educacionII .titulo2 {
   font-size: 80px;
   margin-top: 40px;
   font-family: "Times New Roman";
@@ -92,18 +93,18 @@
   text-decoration: underline;
   color: blue;
 }
-.body-index .titulo2:hover, .acercaDe-Body .titulo2:hover, .body-educacionI .titulo2:hover, .body-usuario .titulo2:hover, .body-contacto .titulo2:hover, .body-marketing .titulo2:hover, .body-operaciones .titulo2:hover, .body-informatica .titulo2:hover, .body-educacionII .titulo2:hover {
+.body-index .titulo2:hover, .acercaDe-Body .titulo2:hover, .body-educacionI .titulo2:hover, .body-contacto .titulo2:hover, .body-marketing .titulo2:hover, .body-operaciones .titulo2:hover, .body-informatica .titulo2:hover, .body-educacionII .titulo2:hover {
   color: red;
   font-family: "Pacifico";
 }
-.body-index .contenedor1, .acercaDe-Body .contenedor1, .body-educacionI .contenedor1, .body-usuario .contenedor1, .body-contacto .contenedor1, .body-marketing .contenedor1, .body-operaciones .contenedor1, .body-informatica .contenedor1, .body-educacionII .contenedor1 {
+.body-index .contenedor1, .acercaDe-Body .contenedor1, .body-educacionI .contenedor1, .body-contacto .contenedor1, .body-marketing .contenedor1, .body-operaciones .contenedor1, .body-informatica .contenedor1, .body-educacionII .contenedor1 {
   display: block;
   justify-content: center;
   padding: 60px 60px;
   justify-content: center;
   text-align: center;
 }
-.body-index .pages, .acercaDe-Body .pages, .body-educacionI .pages, .body-usuario .pages, .body-contacto .pages, .body-marketing .pages, .body-operaciones .pages, .body-informatica .pages, .body-educacionII .pages {
+.body-index .pages, .acercaDe-Body .pages, .body-educacionI .pages, .body-contacto .pages, .body-marketing .pages, .body-operaciones .pages, .body-informatica .pages, .body-educacionII .pages {
   width: 250px;
   height: 150px;
   justify-content: center;
@@ -114,27 +115,27 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-.body-index .datosCreacion, .acercaDe-Body .datosCreacion, .body-educacionI .datosCreacion, .body-usuario .datosCreacion, .body-contacto .datosCreacion, .body-marketing .datosCreacion, .body-operaciones .datosCreacion, .body-informatica .datosCreacion, .body-educacionII .datosCreacion {
+.body-index .datosCreacion, .acercaDe-Body .datosCreacion, .body-educacionI .datosCreacion, .body-contacto .datosCreacion, .body-marketing .datosCreacion, .body-operaciones .datosCreacion, .body-informatica .datosCreacion, .body-educacionII .datosCreacion {
   margin-top: 20px;
   font-size: 25px;
   font-family: "Arial";
   text-align: center;
   text-decoration: none;
 }
-.body-index .logoFinal, .acercaDe-Body .logoFinal, .body-educacionI .logoFinal, .body-usuario .logoFinal, .body-contacto .logoFinal, .body-marketing .logoFinal, .body-operaciones .logoFinal, .body-informatica .logoFinal, .body-educacionII .logoFinal {
+.body-index .logoFinal, .acercaDe-Body .logoFinal, .body-educacionI .logoFinal, .body-contacto .logoFinal, .body-marketing .logoFinal, .body-operaciones .logoFinal, .body-informatica .logoFinal, .body-educacionII .logoFinal {
   width: 100px;
   height: 100px;
   justify-content: center;
   text-align: center;
 }
-.body-index .contenedor2, .acercaDe-Body .contenedor2, .body-educacionI .contenedor2, .body-usuario .contenedor2, .body-contacto .contenedor2, .body-marketing .contenedor2, .body-operaciones .contenedor2, .body-informatica .contenedor2, .body-educacionII .contenedor2 {
+.body-index .contenedor2, .acercaDe-Body .contenedor2, .body-educacionI .contenedor2, .body-contacto .contenedor2, .body-marketing .contenedor2, .body-operaciones .contenedor2, .body-informatica .contenedor2, .body-educacionII .contenedor2 {
   display: block;
   margin-top: 40px;
   justify-content: center;
   text-align: center;
 }
 
-.acercaDe-Body .volver, .body-educacionI .volver, .body-usuario .volver, .body-contacto .volver, .body-marketing .volver, .body-operaciones .volver, .body-informatica .volver, .body-educacionII .volver {
+.acercaDe-Body .volver, .body-educacionI .volver, .body-contacto .volver, .body-marketing .volver, .body-operaciones .volver, .body-informatica .volver, .body-educacionII .volver {
   margin-right: 20px;
   width: 100px;
   height: 80px;
@@ -146,90 +147,34 @@
   animation-duration: 0.7s;
   animation-iteration-count: infinite;
 }
-.acercaDe-Body .enlace-index, .body-educacionI .enlace-index, .body-usuario .enlace-index, .body-contacto .enlace-index, .body-marketing .enlace-index, .body-operaciones .enlace-index, .body-informatica .enlace-index, .body-educacionII .enlace-index {
+.acercaDe-Body .enlace-index, .body-educacionI .enlace-index, .body-contacto .enlace-index, .body-marketing .enlace-index, .body-operaciones .enlace-index, .body-informatica .enlace-index, .body-educacionII .enlace-index {
   font-size: 60px;
   margin-right: 150px;
   text-decoration: none;
 }
-.acercaDe-Body .enlace-index:hover, .body-educacionI .enlace-index:hover, .body-usuario .enlace-index:hover, .body-contacto .enlace-index:hover, .body-marketing .enlace-index:hover, .body-operaciones .enlace-index:hover, .body-informatica .enlace-index:hover, .body-educacionII .enlace-index:hover {
+.acercaDe-Body .enlace-index:hover, .body-educacionI .enlace-index:hover, .body-contacto .enlace-index:hover, .body-marketing .enlace-index:hover, .body-operaciones .enlace-index:hover, .body-informatica .enlace-index:hover, .body-educacionII .enlace-index:hover {
   font-size: 60px;
   font-family: "Sacramento";
   color: red;
   text-decoration: bold italic;
 }
 
-.body-educacionI .texto1, .body-usuario .texto1, .body-contacto .texto1, .body-marketing .texto1, .body-operaciones .texto1, .body-informatica .texto1, .body-educacionII .texto1 {
+.body-educacionI .texto1, .body-contacto .texto1, .body-marketing .texto1, .body-operaciones .texto1, .body-informatica .texto1, .body-educacionII .texto1 {
   font-size: 40px;
   padding: 25px 25px;
   font-family: "Times New Roman";
   text-align: justify;
 }
-.body-educacionI .classRoom, .body-usuario .classRoom, .body-contacto .classRoom, .body-marketing .classRoom, .body-operaciones .classRoom, .body-informatica .classRoom, .body-educacionII .classRoom {
+.body-educacionI .classRoom, .body-contacto .classRoom, .body-marketing .classRoom, .body-operaciones .classRoom, .body-informatica .classRoom, .body-educacionII .classRoom {
   font-size: 40px;
   padding: 25px 25px;
   font-family: "Times New Roman";
   text-align: justify;
   text-decoration: none;
 }
-.body-educacionI .classRoom:hover, .body-usuario .classRoom:hover, .body-contacto .classRoom:hover, .body-marketing .classRoom:hover, .body-operaciones .classRoom:hover, .body-informatica .classRoom:hover, .body-educacionII .classRoom:hover {
+.body-educacionI .classRoom:hover, .body-contacto .classRoom:hover, .body-marketing .classRoom:hover, .body-operaciones .classRoom:hover, .body-informatica .classRoom:hover, .body-educacionII .classRoom:hover {
   color: red;
   font-family: "Roboto";
-}
-
-.body-suscribir {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  background: blanchedalmond;
-}
-.body-suscribir .formulario-registro {
-  width: 400px;
-  text-align: center;
-  background-color: #24303c;
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: "Roboto";
-  color: white;
-  box-shadow: 7px 13px 37px #000;
-}
-.body-suscribir .tituloR {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-.body-suscribir .ingrese {
-  width: 95%;
-  text-align: center;
-  background: #24303c;
-  padding: 10px;
-  margin-bottom: 16px;
-  font-family: "Roboto";
-  font-size: 18px;
-  color: white;
-}
-.body-suscribir .datos {
-  width: 100%;
-  text-align: center;
-  font-family: "Verdana";
-  border-radius: 4px;
-  font-size: 20px;
-  color: black;
-}
-.body-suscribir .condiciones {
-  font-family: "Arial";
-  text-align: center;
-  font-size: 15px;
-}
-.body-suscribir .enviar {
-  font-size: 20px;
-  align-content: center;
-  font-weight: bold;
-  bottom: center;
-}
-.body-suscribir .enviar:hover {
-  font-family: "Times New Roman";
-  color: blue;
 }
 
 .body-contacto .contenedor4 {
@@ -257,6 +202,7 @@
   animation-iteration-count: infinite;
 }
 .body-contacto .imagenes2 {
+  margin-top: 35px;
   width: 80px;
   height: 80px;
   justify-content: center;
@@ -269,19 +215,6 @@
   font-family: "Times New Roman";
   text-align: justify;
   text-align: center;
-}
-
-.body-usuario .contenedor3 {
-  width: 800px;
-  text-align: center;
-  background-color: #24303c;
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: "Roboto";
-  color: white;
-  box-shadow: 7px 13px 37px #000;
 }
 
 /*# sourceMappingURL=Style.css.map */
