@@ -131,12 +131,17 @@
     text-decoration: $Dec4;
 }
 
-@mixin paginas($Size4) {
-    width: $Size4;
-    height: $Size12;
+@mixin paginas($Dec4) {
+    text-decoration: $Dec4;
+    text-align: $Alig1;
+    margin-top: $Size20;
     margin-left: $Size1;
     margin-right: $Size1;
-    text-align: $Alig1;
+    font-size: $Size19 ;
+    font-family: $font3;
+    color: $color3;
+
+
 }
 
 @mixin enlacesClassRoom($Size25) {
@@ -172,9 +177,9 @@
 }
 
 @mixin imagenesContacto($Size3) {
-    margin-top: $Size3; 
+    margin-top: $Size3;
     width: $Size17;
-    height: $Size17;   
+    height: $Size17;
     justify-content: $Alig1;
     text-align: $Alig1;
 
@@ -299,4 +304,28 @@
     font-family: $font3;
     color: $color7;
     box-shadow: $Size30 $Size31 $Size32 $color11;
+}
+
+
+@mixin texto3($Size16) {
+    font-size: $Size16;
+    color: $color3;
+    padding: $Size21 $Size21;
+    font-family: $font1;
+    text-align: $Alig1;
+
+}
+@mixin texto5($Size16) {
+    font-size: $Size16;
+    color: $color3;
+    padding: $Size21 $Size21;
+    font-family: $font1;
+    text-align: $Alig1;
+
+}
+@mixin imagen3($Size16){
+    width: $Size16;
+    height: $Size18;
+    padding-top: $Size18;
+    margin-top: $Size18;
 }

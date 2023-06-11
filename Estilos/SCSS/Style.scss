@@ -178,3 +178,23 @@
         text-align: center;
     }
 }
+.body-educTecnica{
+    @extend .body-index;
+    @extend .body-educacionI;
+}
+.body-enlacesdeInteres{
+    @extend .body-index;
+    @extend .body-educacionI;  
+    
+    .pagina1{
+        @include texto3(60px);
+        text-decoration: $Dec4;
+    }
+  .texto5{
+    @include  texto3(60px);      
+    
+  }
+  .imagen3{
+    @include imagen3(60px);
+  }
+}
