@@ -113,7 +113,7 @@
     }
 
     .enlace-index {
-        @include index(60px);
+        @include index(100px);
 
         &:hover {
             @include enlace-index(60px);
@@ -190,11 +190,21 @@
         @include texto3(60px);
         text-decoration: $Dec4;
     }
+
+    .contenedor5{
+        @include contenedor5 (center);
+    }
   .texto5{
-    @include  texto3(60px);      
+    @include  texto3(50px);      
     
   }
   .imagen3{
-    @include imagen3(60px);
+    @include imagen3(250px);
+    
   }
+  .volver {
+    margin-right: $Size29;
+    @include flecha1(100px);
+    @include transicion1(5px);
+}
 }

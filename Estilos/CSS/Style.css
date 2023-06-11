@@ -125,18 +125,19 @@
 .body-index .logoFinal, .body-enlacesdeInteres .logoFinal, .body-educTecnica .logoFinal, .acercaDe-Body .logoFinal, .body-educacionI .logoFinal, .body-contacto .logoFinal, .body-marketing .logoFinal, .body-operaciones .logoFinal, .body-informatica .logoFinal, .body-educacionII .logoFinal {
   width: 100px;
   height: 100px;
+  margin-top: 100px;
   justify-content: center;
   text-align: center;
 }
 .body-index .contenedor2, .body-enlacesdeInteres .contenedor2, .body-educTecnica .contenedor2, .acercaDe-Body .contenedor2, .body-educacionI .contenedor2, .body-contacto .contenedor2, .body-marketing .contenedor2, .body-operaciones .contenedor2, .body-informatica .contenedor2, .body-educacionII .contenedor2 {
   display: block;
-  margin-top: 40px;
+  margin-top: 100px;
   justify-content: center;
   text-align: center;
 }
 
 .acercaDe-Body .volver, .body-educacionI .volver, .body-enlacesdeInteres .volver, .body-educTecnica .volver, .body-contacto .volver, .body-marketing .volver, .body-operaciones .volver, .body-informatica .volver, .body-educacionII .volver {
-  margin-right: 20px;
+  margin-right: 100px;
   width: 100px;
   height: 80px;
   border-radius: 5px;
@@ -148,11 +149,13 @@
   animation-iteration-count: infinite;
 }
 .acercaDe-Body .enlace-index, .body-educacionI .enlace-index, .body-enlacesdeInteres .enlace-index, .body-educTecnica .enlace-index, .body-contacto .enlace-index, .body-marketing .enlace-index, .body-operaciones .enlace-index, .body-informatica .enlace-index, .body-educacionII .enlace-index {
+  margin-top: 100px;
   font-size: 60px;
   margin-right: 150px;
   text-decoration: none;
 }
 .acercaDe-Body .enlace-index:hover, .body-educacionI .enlace-index:hover, .body-enlacesdeInteres .enlace-index:hover, .body-educTecnica .enlace-index:hover, .body-contacto .enlace-index:hover, .body-marketing .enlace-index:hover, .body-operaciones .enlace-index:hover, .body-informatica .enlace-index:hover, .body-educacionII .enlace-index:hover {
+  margin-top: 60px;
   font-size: 60px;
   font-family: "Sacramento";
   color: red;
@@ -190,7 +193,7 @@
   box-shadow: 7px 13px 37px #000;
 }
 .body-contacto .volver {
-  margin-right: 20px;
+  margin-right: 100px;
   width: 100px;
   height: 80px;
   border-radius: 5px;
@@ -225,18 +228,40 @@
   text-align: center;
   text-decoration: none;
 }
+.body-enlacesdeInteres .contenedor5 {
+  justify-content: center;
+  text-align: center;
+}
 .body-enlacesdeInteres .texto5 {
-  font-size: 60px;
+  font-size: 50px;
   color: black;
   padding: 25px 25px;
   font-family: "Times New Roman";
   text-align: center;
 }
 .body-enlacesdeInteres .imagen3 {
-  width: 60px;
-  height: 40px;
-  padding-top: 40px;
-  margin-top: 40px;
+  width: 250px;
+  height: 150px;
+  border: black 10px;
+  border-style: double;
+  text-align: center;
+  justify-content: center;
+  animation-name: aparecer;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+.body-enlacesdeInteres .volver {
+  margin-right: 30px;
+  margin-right: 100px;
+  width: 100px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: grey;
+  border-style: dashed;
+  animation-name: aparecer;
+  color: red;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
 }
 
 /*# sourceMappingURL=Style.css.map */

@@ -163,7 +163,7 @@
 
 @mixin contenedor2 ($Display2) {
     display: $Display2;
-    margin-top: $Size18;
+    margin-top: $Size19;
     justify-content: $Alig1;
     text-align: $Alig1;
 }
@@ -171,6 +171,7 @@
 @mixin logoFinal($Size19) {
     width: $Size19;
     height: $Size19;
+    margin-top: $Size19;
     justify-content: $Alig1;
     text-align: $Alig1;
 
@@ -185,13 +186,15 @@
 
 }
 
-@mixin flecha1($Size19) {
+@mixin flecha1($Size6) {
+  
     margin-right: $Size6;
     width: $Size19;
     height: $Size17;
 }
 
-@mixin index($Size16) {
+@mixin index($Size19) {
+    margin-top: $Size19;
     font-size: $Size16;
     margin-right: $Size26;
     text-decoration: $Dec4;
@@ -207,7 +210,8 @@
     animation-iteration-count: $count1;
 }
 
-@mixin enlace-index($Size16) {
+@mixin enlace-index($Size19) {
+  margin-top: $Size19;
     font-size: $Size16;
     font-family: $font5;
     color: $color1;
@@ -315,17 +319,42 @@
     text-align: $Alig1;
 
 }
-@mixin texto5($Size16) {
-    font-size: $Size16;
+@mixin contenedor5 ($Alig1){
+    justify-content: $Alig1;
+    text-align: $Alig1;
+}
+@mixin texto5($Size20) {
+    font-size: $Size20;
+    margin-top: $size18;
     color: $color3;
     padding: $Size21 $Size21;
     font-family: $font1;
     text-align: $Alig1;
 
 }
-@mixin imagen3($Size16){
-    width: $Size16;
-    height: $Size18;
-    padding-top: $Size18;
-    margin-top: $Size18;
+@mixin imagen3($Size25){
+    width: $Size25;
+    height: $Size26;
+    border: $color3 $Size2;
+    border-style: $borderE3;
+    text-align: $Alig1;
+    justify-content: $Alig1;
+    animation-name: $animacion1;   
+    animation-duration: $duracion1;
+    animation-iteration-count: $count1;
+
+   
+}
+@mixin index1($Size19) {
+    margin-top: $Size19;
+    font-size: $Size16;
+    margin-right: $Size26;
+    text-decoration: $Dec4;
+}
+@mixin logoFinal2($Size19) {
+    width: $Size19;
+    height: $Size19;
+    margin-top: $Size19;
+    justify-content: $Alig1;
+    text-align: $Alig1;
 }
