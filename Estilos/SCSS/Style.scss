@@ -28,7 +28,7 @@
 
     //header del index//
     .navbar {
-        @include navbar (blue);
+        @include navbar (20px);
     }
 
     .navbar-ul-li {
@@ -45,7 +45,7 @@
     }
 
     .nav-enlaces {
-        @include enlaces (block);
+        @include enlaces (inline-flex);
 
         &:hover {
             @include enlaces-hover (grey);
@@ -66,7 +66,9 @@
             font-size: $Size19;
         }
     }
-
+.contenedor6{
+   @include contenedor6(grid);
+}
     .texto {
         @include texto(25px);
     }
@@ -111,7 +113,10 @@
         @include flecha1(100px);
         @include transicion1(5px);
     }
-
+    .contenedor6{
+        @include contenedor6(grid);
+     }
+       
     .enlace-index {
         @include index(100px);
 

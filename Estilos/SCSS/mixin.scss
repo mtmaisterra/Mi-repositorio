@@ -8,9 +8,9 @@
     animation-iteration-count: $count1;
 }
 
-@mixin navbar($Size1) {
-    padding: $Size1;
-    margin: $Size7;
+@mixin navbar($Size6) {    
+    margin: $Size6 $Size6 $Size6 $Size6;
+     justify-content: $Alig1;
     text-align: $Alig1;
     background-color: $color2;
     text-decoration: $Dec4;
@@ -84,7 +84,7 @@
 
 @mixin educacionI-otros($Size17) {
     font-size: $Size17;
-    margin-top: $Size18;
+    margin-top: $Size26;
     font-family: $font1;
     text-align: $Alig1;
     text-decoration: $Dec1;
@@ -357,4 +357,10 @@
     margin-top: $Size19;
     justify-content: $Alig1;
     text-align: $Alig1;
+}
+@mixin contenedor6($Display4){
+    display: $Display4;
+    grid-template-columns: $Col1  $Col1;
+    grid-template-rows: $Fil1;
+   
 }

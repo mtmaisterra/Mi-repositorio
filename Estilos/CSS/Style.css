@@ -19,8 +19,8 @@
   background: blanchedalmond;
 }
 .body-index .navbar, .body-enlacesdeInteres .navbar, .body-educTecnica .navbar, .acercaDe-Body .navbar, .body-educacionI .navbar, .body-contacto .navbar, .body-marketing .navbar, .body-operaciones .navbar, .body-informatica .navbar, .body-educacionII .navbar {
-  padding: blue;
-  margin: 0;
+  margin: 20px 20px 20px 20px;
+  justify-content: center;
   text-align: center;
   background-color: blue;
   text-decoration: none;
@@ -44,7 +44,7 @@
 }
 .body-index .nav-enlaces, .body-enlacesdeInteres .nav-enlaces, .body-educTecnica .nav-enlaces, .acercaDe-Body .nav-enlaces, .body-educacionI .nav-enlaces, .body-contacto .nav-enlaces, .body-marketing .nav-enlaces, .body-operaciones .nav-enlaces, .body-informatica .nav-enlaces, .body-educacionII .nav-enlaces {
   text-decoration: none;
-  display: block;
+  display: inline-flex;
   color: white;
   font-family: "Roboto";
   font-weight: bold;
@@ -78,6 +78,11 @@
   color: red;
   font-size: 100px;
 }
+.body-index .contenedor6, .body-enlacesdeInteres .contenedor6, .body-educTecnica .contenedor6, .acercaDe-Body .contenedor6, .body-educacionI .contenedor6, .body-contacto .contenedor6, .body-marketing .contenedor6, .body-operaciones .contenedor6, .body-informatica .contenedor6, .body-educacionII .contenedor6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px;
+}
 .body-index .texto, .body-enlacesdeInteres .texto, .body-educTecnica .texto, .acercaDe-Body .texto, .body-educacionI .texto, .body-contacto .texto, .body-marketing .texto, .body-operaciones .texto, .body-informatica .texto, .body-educacionII .texto {
   padding: 25px 25px;
   margin-top: 40px;
@@ -87,7 +92,7 @@
 }
 .body-index .titulo2, .body-enlacesdeInteres .titulo2, .body-educTecnica .titulo2, .acercaDe-Body .titulo2, .body-educacionI .titulo2, .body-contacto .titulo2, .body-marketing .titulo2, .body-operaciones .titulo2, .body-informatica .titulo2, .body-educacionII .titulo2 {
   font-size: 80px;
-  margin-top: 40px;
+  margin-top: 150px;
   font-family: "Times New Roman";
   text-align: center;
   text-decoration: underline;
@@ -147,6 +152,11 @@
   color: red;
   animation-duration: 0.7s;
   animation-iteration-count: infinite;
+}
+.acercaDe-Body .contenedor6, .body-educacionI .contenedor6, .body-enlacesdeInteres .contenedor6, .body-educTecnica .contenedor6, .body-contacto .contenedor6, .body-marketing .contenedor6, .body-operaciones .contenedor6, .body-informatica .contenedor6, .body-educacionII .contenedor6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px;
 }
 .acercaDe-Body .enlace-index, .body-educacionI .enlace-index, .body-enlacesdeInteres .enlace-index, .body-educTecnica .enlace-index, .body-contacto .enlace-index, .body-marketing .enlace-index, .body-operaciones .enlace-index, .body-informatica .enlace-index, .body-educacionII .enlace-index {
   margin-top: 100px;
