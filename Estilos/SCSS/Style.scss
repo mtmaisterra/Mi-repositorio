@@ -25,7 +25,16 @@
 
 .body-index {
     background: $color4;
-
+    .mi-elemento{
+        color: $color2;
+        font-size: $Size6;
+        }
+        @media (max-width: 768px){
+            .mi-elemento{
+                color:$color1;
+                font-size: $Size8;
+            }
+        }
     //header del index//
     .navbar {
         @include navbar (20px);
@@ -67,7 +76,7 @@
         }
     }
 .contenedor6{
-   @include contenedor6(grid);
+    @include contenedor6(grid);
 }
     .texto {
         @include texto(25px);
@@ -108,15 +117,21 @@
 
 .acercaDe-Body {
     @extend .body-index;
-
+    .mi-elemento{
+        color: $color2;
+        font-size: $Size6;
+        }
+        @media (max-width: 768px){
+            .mi-elemento{
+                color:$color1;
+                font-size: $Size8;
+            }
+        }
     .volver {
         @include flecha1(100px);
         @include transicion1(5px);
     }
-    .contenedor6{
-        @include contenedor6(grid);
-     }
-       
+
     .enlace-index {
         @include index(100px);
 
@@ -129,7 +144,16 @@
 
 .body-educacionI {
     @extend .acercaDe-Body;
-
+    .mi-elemento{
+        color: $color2;
+        font-size: $Size6;
+        }
+        @media (max-width: 768px){
+            .mi-elemento{
+                color:$color1;
+                font-size: $Size8;
+            }
+        }
     .texto1 {
         @include texto1(40px);
     }
@@ -147,23 +171,65 @@
 
 .body-educacionII {
     @extend .body-educacionI;
+    .mi-elemento{
+        color: $color2;
+        font-size: $Size6;
+        }
+        @media (max-width: 768px){
+            .mi-elemento{
+                color:$color1;
+                font-size: $Size8;
+            }
+        }
+
 }
 
 .body-informatica {
     @extend .body-educacionI;
+    .mi-elemento{
+        color: $color2;
+        font-size: $Size6;
+        }
+        @media (max-width: 768px){
+            .mi-elemento{
+                color:$color1;
+                font-size: $Size8;
+            }
+        }
 }
 
 .body-operaciones {
     @extend .body-educacionI;
+    .mi-elemento{
+        color: $color2;
+        font-size: $Size6;
+        }
+        @media (max-width: 768px){
+            .mi-elemento{
+                color:$color1;
+                font-size: $Size8;
+            }
+        }
 }
 
 .body-marketing {
     @extend .body-educacionI;
+
 }
 
 
 .body-contacto {
     @extend .body-educacionI;
+    .mi-elemento{
+        color: $color2;
+        font-size: $Size6;
+        }
+        @media (max-width: 768px){
+            .mi-elemento{
+                color:$color1;
+                font-size: $Size8;
+            }
+        }
 
     .contenedor4 {
         @include contenedor4(400px);
@@ -211,5 +277,14 @@
     margin-right: $Size29;
     @include flecha1(100px);
     @include transicion1(5px);
+}.mi-elemento{
+color: $color2;
+font-size: $Size6;
+}
+@media (max-width: 768px){
+    .mi-elemento{
+        color:$color1;
+        font-size: $Size8;
+    }
 }
 }

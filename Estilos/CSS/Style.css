@@ -18,6 +18,16 @@
 .body-index, .body-enlacesdeInteres, .body-educTecnica, .acercaDe-Body, .body-educacionI, .body-contacto, .body-marketing, .body-operaciones, .body-informatica, .body-educacionII {
   background: blanchedalmond;
 }
+.body-index .mi-elemento, .body-enlacesdeInteres .mi-elemento, .body-educTecnica .mi-elemento, .acercaDe-Body .mi-elemento, .body-educacionI .mi-elemento, .body-contacto .mi-elemento, .body-marketing .mi-elemento, .body-operaciones .mi-elemento, .body-informatica .mi-elemento, .body-educacionII .mi-elemento {
+  color: blue;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .body-index .mi-elemento, .body-enlacesdeInteres .mi-elemento, .body-educTecnica .mi-elemento, .acercaDe-Body .mi-elemento, .body-educacionI .mi-elemento, .body-contacto .mi-elemento, .body-marketing .mi-elemento, .body-operaciones .mi-elemento, .body-informatica .mi-elemento, .body-educacionII .mi-elemento {
+    color: red;
+    font-size: 14px;
+  }
+}
 .body-index .navbar, .body-enlacesdeInteres .navbar, .body-educTecnica .navbar, .acercaDe-Body .navbar, .body-educacionI .navbar, .body-contacto .navbar, .body-marketing .navbar, .body-operaciones .navbar, .body-informatica .navbar, .body-educacionII .navbar {
   margin: 20px 20px 20px 20px;
   justify-content: center;
@@ -141,6 +151,16 @@
   text-align: center;
 }
 
+.acercaDe-Body .mi-elemento, .body-educacionI .mi-elemento, .body-enlacesdeInteres .mi-elemento, .body-educTecnica .mi-elemento, .body-contacto .mi-elemento, .body-marketing .mi-elemento, .body-operaciones .mi-elemento, .body-informatica .mi-elemento, .body-educacionII .mi-elemento {
+  color: blue;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .acercaDe-Body .mi-elemento, .body-educacionI .mi-elemento, .body-enlacesdeInteres .mi-elemento, .body-educTecnica .mi-elemento, .body-contacto .mi-elemento, .body-marketing .mi-elemento, .body-operaciones .mi-elemento, .body-informatica .mi-elemento, .body-educacionII .mi-elemento {
+    color: red;
+    font-size: 14px;
+  }
+}
 .acercaDe-Body .volver, .body-educacionI .volver, .body-enlacesdeInteres .volver, .body-educTecnica .volver, .body-contacto .volver, .body-marketing .volver, .body-operaciones .volver, .body-informatica .volver, .body-educacionII .volver {
   margin-right: 100px;
   width: 100px;
@@ -152,11 +172,6 @@
   color: red;
   animation-duration: 0.7s;
   animation-iteration-count: infinite;
-}
-.acercaDe-Body .contenedor6, .body-educacionI .contenedor6, .body-enlacesdeInteres .contenedor6, .body-educTecnica .contenedor6, .body-contacto .contenedor6, .body-marketing .contenedor6, .body-operaciones .contenedor6, .body-informatica .contenedor6, .body-educacionII .contenedor6 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px;
 }
 .acercaDe-Body .enlace-index, .body-educacionI .enlace-index, .body-enlacesdeInteres .enlace-index, .body-educTecnica .enlace-index, .body-contacto .enlace-index, .body-marketing .enlace-index, .body-operaciones .enlace-index, .body-informatica .enlace-index, .body-educacionII .enlace-index {
   margin-top: 100px;
@@ -172,6 +187,16 @@
   text-decoration: bold italic;
 }
 
+.body-educacionI .mi-elemento, .body-enlacesdeInteres .mi-elemento, .body-educTecnica .mi-elemento, .body-contacto .mi-elemento, .body-marketing .mi-elemento, .body-operaciones .mi-elemento, .body-informatica .mi-elemento, .body-educacionII .mi-elemento {
+  color: blue;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .body-educacionI .mi-elemento, .body-enlacesdeInteres .mi-elemento, .body-educTecnica .mi-elemento, .body-contacto .mi-elemento, .body-marketing .mi-elemento, .body-operaciones .mi-elemento, .body-informatica .mi-elemento, .body-educacionII .mi-elemento {
+    color: red;
+    font-size: 14px;
+  }
+}
 .body-educacionI .texto1, .body-enlacesdeInteres .texto1, .body-educTecnica .texto1, .body-contacto .texto1, .body-marketing .texto1, .body-operaciones .texto1, .body-informatica .texto1, .body-educacionII .texto1 {
   font-size: 40px;
   padding: 25px 25px;
@@ -190,6 +215,49 @@
   font-family: "Roboto";
 }
 
+.body-educacionII .mi-elemento {
+  color: blue;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .body-educacionII .mi-elemento {
+    color: red;
+    font-size: 14px;
+  }
+}
+
+.body-informatica .mi-elemento {
+  color: blue;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .body-informatica .mi-elemento {
+    color: red;
+    font-size: 14px;
+  }
+}
+
+.body-operaciones .mi-elemento {
+  color: blue;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .body-operaciones .mi-elemento {
+    color: red;
+    font-size: 14px;
+  }
+}
+
+.body-contacto .mi-elemento {
+  color: blue;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .body-contacto .mi-elemento {
+    color: red;
+    font-size: 14px;
+  }
+}
 .body-contacto .contenedor4 {
   width: 400px;
   text-align: center;
@@ -272,6 +340,16 @@
   color: red;
   animation-duration: 0.7s;
   animation-iteration-count: infinite;
+}
+.body-enlacesdeInteres .mi-elemento {
+  color: blue;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .body-enlacesdeInteres .mi-elemento {
+    color: red;
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=Style.css.map */
