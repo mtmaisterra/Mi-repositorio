@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -77,6 +78,51 @@
   font-family: "Pacifico";
   color: red;
   font-size: 100px;
+}
+@media (max-width: 600px) {
+  .body-index, .body-enlacesdeInteres, .body-educTecnica, .acercaDe-Body, .body-educacionI, .body-contacto, .body-marketing, .body-operaciones, .body-informatica, .body-educacionII {
+    /* Estilos para pantallas con un ancho máximo de 600px */
+    margin-top: 60px;
+    color: blue;
+    font-family: "Times New Roman";
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+    font-size: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .body-index, .body-enlacesdeInteres, .body-educTecnica, .acercaDe-Body, .body-educacionI, .body-contacto, .body-marketing, .body-operaciones, .body-informatica, .body-educacionII {
+    /* Estilos para pantallas con un ancho mínimo de 1200px */
+    margin-top: 100px;
+    color: blue;
+    font-family: "Times New Roman";
+    font-size: 100px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+    font-size: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .body-index, .body-enlacesdeInteres, .body-educTecnica, .acercaDe-Body, .body-educacionI, .body-contacto, .body-marketing, .body-operaciones, .body-informatica, .body-educacionII {
+    /* Estilos para pantallas móviles con un ancho máximo de 767px */
+    margin-top: 60px;
+    color: blue;
+    font-family: "Times New Roman";
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+    font-size: 60px;
+  }
 }
 .body-index .texto, .body-enlacesdeInteres .texto, .body-educTecnica .texto, .acercaDe-Body .texto, .body-educacionI .texto, .body-contacto .texto, .body-marketing .texto, .body-operaciones .texto, .body-informatica .texto, .body-educacionII .texto {
   padding: 25px 25px;
