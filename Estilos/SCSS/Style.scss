@@ -67,9 +67,7 @@
             font-size: $Size19;
         }
     }
-.contenedor6{
-    @include contenedor6(grid);
-}
+
     .texto {
         @include texto(25px);
     }

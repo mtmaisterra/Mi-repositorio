@@ -358,9 +358,4 @@
     justify-content: $Alig1;
     text-align: $Alig1;
 }
-@mixin contenedor6($Display4){
-    display: $Display4;
-    grid-template-columns: $Col1  $Col1;
-    grid-template-rows: $Fil1;
-   
-}
+
