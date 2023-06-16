@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "mixin.scss";
 
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -25,16 +26,7 @@
 
 .body-index {
     background: $color4;
-    .mi-elemento{
-        color: $color2;
-        font-size: $Size6;
-        }
-        @media (max-width: 768px){
-            .mi-elemento{
-                color:$color1;
-                font-size: $Size8;
-            }
-        }
+    
     //header del index//
     .navbar {
         @include navbar (20px);
@@ -117,16 +109,7 @@
 
 .acercaDe-Body {
     @extend .body-index;
-    .mi-elemento{
-        color: $color2;
-        font-size: $Size6;
-        }
-        @media (max-width: 768px){
-            .mi-elemento{
-                color:$color1;
-                font-size: $Size8;
-            }
-        }
+    
     .volver {
         @include flecha1(100px);
         @include transicion1(5px);
@@ -144,16 +127,7 @@
 
 .body-educacionI {
     @extend .acercaDe-Body;
-    .mi-elemento{
-        color: $color2;
-        font-size: $Size6;
-        }
-        @media (max-width: 768px){
-            .mi-elemento{
-                color:$color1;
-                font-size: $Size8;
-            }
-        }
+    
     .texto1 {
         @include texto1(40px);
     }
@@ -171,45 +145,19 @@
 
 .body-educacionII {
     @extend .body-educacionI;
-    .mi-elemento{
-        color: $color2;
-        font-size: $Size6;
-        }
-        @media (max-width: 768px){
-            .mi-elemento{
-                color:$color1;
-                font-size: $Size8;
-            }
-        }
+    
+       
 
 }
 
 .body-informatica {
     @extend .body-educacionI;
-    .mi-elemento{
-        color: $color2;
-        font-size: $Size6;
-        }
-        @media (max-width: 768px){
-            .mi-elemento{
-                color:$color1;
-                font-size: $Size8;
-            }
-        }
+   
 }
 
 .body-operaciones {
     @extend .body-educacionI;
-    .mi-elemento{
-        color: $color2;
-        font-size: $Size6;
-        }
-        @media (max-width: 768px){
-            .mi-elemento{
-                color:$color1;
-                font-size: $Size8;
-            }
-        }
+   
 }
 
 .body-marketing {
@@ -220,16 +168,7 @@
 
 .body-contacto {
     @extend .body-educacionI;
-    .mi-elemento{
-        color: $color2;
-        font-size: $Size6;
-        }
-        @media (max-width: 768px){
-            .mi-elemento{
-                color:$color1;
-                font-size: $Size8;
-            }
-        }
+    
 
     .contenedor4 {
         @include contenedor4(400px);
@@ -277,14 +216,5 @@
     margin-right: $Size29;
     @include flecha1(100px);
     @include transicion1(5px);
-}.mi-elemento{
-color: $color2;
-font-size: $Size6;
-}
-@media (max-width: 768px){
-    .mi-elemento{
-        color:$color1;
-        font-size: $Size8;
-    }
-}
+  }
 }
