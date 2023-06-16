@@ -212,9 +212,9 @@
   }
   .body-index .titulo, .body-enlacesdeInteres .titulo, .body-educTecnica .titulo, .acercaDe-Body .titulo, .body-educacionI .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
     margin-top: 50px;
-    color: blue;
-    font-family: "Times New Roman";
-    font-size: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -253,7 +253,7 @@
     text-align: center;
   }
   .body-index .pages, .body-enlacesdeInteres .pages, .body-educTecnica .pages, .acercaDe-Body .pages, .body-educacionI .pages, .body-contacto .pages, .body-marketing .pages, .body-operaciones .pages, .body-informatica .pages, .body-educacionII .pages {
-    width: 250px;
+    width: 50px;
     height: 150px;
     justify-content: center;
     margin-top: 35px;
@@ -305,11 +305,159 @@
 }
 .acercaDe-Body .enlace-index:hover, .body-educacionI .enlace-index:hover, .body-enlacesdeInteres .enlace-index:hover, .body-educTecnica .enlace-index:hover, .body-contacto .enlace-index:hover, .body-marketing .enlace-index:hover, .body-operaciones .enlace-index:hover, .body-informatica .enlace-index:hover, .body-educacionII .enlace-index:hover {
   margin-top: 60px;
-  justify-content: center;
   font-size: 60px;
   font-family: "Sacramento";
   color: red;
   text-decoration: bold italic;
+}
+@media screen and (max-width: 600px) {
+  .acercaDe-Body .body-index, .acercaDe-Body .body-enlacesdeInteres, .acercaDe-Body .body-educTecnica, .body-educacionI .body-index, .body-enlacesdeInteres .body-index, .body-educacionI .body-enlacesdeInteres, .body-enlacesdeInteres .body-enlacesdeInteres, .body-educTecnica .body-index, .body-educTecnica .body-enlacesdeInteres, .body-educacionI .body-educTecnica, .body-enlacesdeInteres .body-educTecnica, .body-educTecnica .body-educTecnica, .body-contacto .body-index, .body-contacto .body-enlacesdeInteres, .body-contacto .body-educTecnica, .body-marketing .body-index, .body-marketing .body-enlacesdeInteres, .body-marketing .body-educTecnica, .body-operaciones .body-index, .body-operaciones .body-enlacesdeInteres, .body-operaciones .body-educTecnica, .body-informatica .body-index, .body-informatica .body-enlacesdeInteres, .body-informatica .body-educTecnica, .body-educacionII .body-index, .body-educacionII .body-enlacesdeInteres, .body-educacionII .body-educTecnica, .acercaDe-Body .acercaDe-Body, .body-educacionI .acercaDe-Body, .body-enlacesdeInteres .acercaDe-Body, .body-educTecnica .acercaDe-Body, .body-contacto .acercaDe-Body, .body-marketing .acercaDe-Body, .body-operaciones .acercaDe-Body, .body-informatica .acercaDe-Body, .body-educacionII .acercaDe-Body, .acercaDe-Body .body-educacionI, .acercaDe-Body .body-contacto, .acercaDe-Body .body-marketing, .acercaDe-Body .body-operaciones, .acercaDe-Body .body-informatica, .acercaDe-Body .body-educacionII, .body-educacionI .body-educacionI, .body-enlacesdeInteres .body-educacionI, .body-educTecnica .body-educacionI, .body-contacto .body-educacionI, .body-educacionI .body-contacto, .body-enlacesdeInteres .body-contacto, .body-educTecnica .body-contacto, .body-contacto .body-contacto, .body-marketing .body-educacionI, .body-marketing .body-contacto, .body-educacionI .body-marketing, .body-enlacesdeInteres .body-marketing, .body-educTecnica .body-marketing, .body-contacto .body-marketing, .body-marketing .body-marketing, .body-operaciones .body-educacionI, .body-operaciones .body-contacto, .body-operaciones .body-marketing, .body-educacionI .body-operaciones, .body-enlacesdeInteres .body-operaciones, .body-educTecnica .body-operaciones, .body-contacto .body-operaciones, .body-marketing .body-operaciones, .body-operaciones .body-operaciones, .body-informatica .body-educacionI, .body-informatica .body-contacto, .body-informatica .body-marketing, .body-informatica .body-operaciones, .body-educacionI .body-informatica, .body-enlacesdeInteres .body-informatica, .body-educTecnica .body-informatica, .body-contacto .body-informatica, .body-marketing .body-informatica, .body-operaciones .body-informatica, .body-informatica .body-informatica, .body-educacionII .body-educacionI, .body-educacionII .body-contacto, .body-educacionII .body-marketing, .body-educacionII .body-operaciones, .body-educacionII .body-informatica, .body-educacionI .body-educacionII, .body-enlacesdeInteres .body-educacionII, .body-educTecnica .body-educacionII, .body-contacto .body-educacionII, .body-marketing .body-educacionII, .body-operaciones .body-educacionII, .body-informatica .body-educacionII, .body-educacionII .body-educacionII {
+    background: red;
+  }
+  .acercaDe-Body .titulo, .body-educacionI .titulo, .body-enlacesdeInteres .titulo, .body-educTecnica .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .acercaDe-Body .navbar, .body-educacionI .navbar, .body-enlacesdeInteres .navbar, .body-educTecnica .navbar, .body-contacto .navbar, .body-marketing .navbar, .body-operaciones .navbar, .body-informatica .navbar, .body-educacionII .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .acercaDe-Body .nav-enlaces, .body-educacionI .nav-enlaces, .body-enlacesdeInteres .nav-enlaces, .body-educTecnica .nav-enlaces, .body-contacto .nav-enlaces, .body-marketing .nav-enlaces, .body-operaciones .nav-enlaces, .body-informatica .nav-enlaces, .body-educacionII .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .acercaDe-Body .nav-enlaces:hover, .body-educacionI .nav-enlaces:hover, .body-enlacesdeInteres .nav-enlaces:hover, .body-educTecnica .nav-enlaces:hover, .body-contacto .nav-enlaces:hover, .body-marketing .nav-enlaces:hover, .body-operaciones .nav-enlaces:hover, .body-informatica .nav-enlaces:hover, .body-educacionII .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .acercaDe-Body .navbar-ul-li, .body-educacionI .navbar-ul-li, .body-enlacesdeInteres .navbar-ul-li, .body-educTecnica .navbar-ul-li, .body-contacto .navbar-ul-li, .body-marketing .navbar-ul-li, .body-operaciones .navbar-ul-li, .body-informatica .navbar-ul-li, .body-educacionII .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .acercaDe-Body .nav-imagen, .body-educacionI .nav-imagen, .body-enlacesdeInteres .nav-imagen, .body-educTecnica .nav-imagen, .body-contacto .nav-imagen, .body-marketing .nav-imagen, .body-operaciones .nav-imagen, .body-informatica .nav-imagen, .body-educacionII .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .acercaDe-Body .search-button, .body-educacionI .search-button, .body-enlacesdeInteres .search-button, .body-educTecnica .search-button, .body-contacto .search-button, .body-marketing .search-button, .body-operaciones .search-button, .body-informatica .search-button, .body-educacionII .search-button {
+    margin-right: 5px;
+  }
+  .acercaDe-Body .nav-enlaces, .body-educacionI .nav-enlaces, .body-enlacesdeInteres .nav-enlaces, .body-educTecnica .nav-enlaces, .body-contacto .nav-enlaces, .body-marketing .nav-enlaces, .body-operaciones .nav-enlaces, .body-informatica .nav-enlaces, .body-educacionII .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .acercaDe-Body .nav-enlaces:hover, .body-educacionI .nav-enlaces:hover, .body-enlacesdeInteres .nav-enlaces:hover, .body-educTecnica .nav-enlaces:hover, .body-contacto .nav-enlaces:hover, .body-marketing .nav-enlaces:hover, .body-operaciones .nav-enlaces:hover, .body-informatica .nav-enlaces:hover, .body-educacionII .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .acercaDe-Body .search-container, .body-educacionI .search-container, .body-enlacesdeInteres .search-container, .body-educTecnica .search-container, .body-contacto .search-container, .body-marketing .search-container, .body-operaciones .search-container, .body-informatica .search-container, .body-educacionII .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .acercaDe-Body .titulo, .body-educacionI .titulo, .body-enlacesdeInteres .titulo, .body-educTecnica .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .acercaDe-Body .titulo:hover, .body-educacionI .titulo:hover, .body-enlacesdeInteres .titulo:hover, .body-educTecnica .titulo:hover, .body-contacto .titulo:hover, .body-marketing .titulo:hover, .body-operaciones .titulo:hover, .body-informatica .titulo:hover, .body-educacionII .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .acercaDe-Body .texto, .body-educacionI .texto, .body-enlacesdeInteres .texto, .body-educTecnica .texto, .body-contacto .texto, .body-marketing .texto, .body-operaciones .texto, .body-informatica .texto, .body-educacionII .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .acercaDe-Body .titulo2, .body-educacionI .titulo2, .body-enlacesdeInteres .titulo2, .body-educTecnica .titulo2, .body-contacto .titulo2, .body-marketing .titulo2, .body-operaciones .titulo2, .body-informatica .titulo2, .body-educacionII .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .acercaDe-Body .titulo2:hover, .body-educacionI .titulo2:hover, .body-enlacesdeInteres .titulo2:hover, .body-educTecnica .titulo2:hover, .body-contacto .titulo2:hover, .body-marketing .titulo2:hover, .body-operaciones .titulo2:hover, .body-informatica .titulo2:hover, .body-educacionII .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .acercaDe-Body .contenedor1, .body-educacionI .contenedor1, .body-enlacesdeInteres .contenedor1, .body-educTecnica .contenedor1, .body-contacto .contenedor1, .body-marketing .contenedor1, .body-operaciones .contenedor1, .body-informatica .contenedor1, .body-educacionII .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .acercaDe-Body .pages, .body-educacionI .pages, .body-enlacesdeInteres .pages, .body-educTecnica .pages, .body-contacto .pages, .body-marketing .pages, .body-operaciones .pages, .body-informatica .pages, .body-educacionII .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .acercaDe-Body .datosCreacion, .body-educacionI .datosCreacion, .body-enlacesdeInteres .datosCreacion, .body-educTecnica .datosCreacion, .body-contacto .datosCreacion, .body-marketing .datosCreacion, .body-operaciones .datosCreacion, .body-informatica .datosCreacion, .body-educacionII .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .acercaDe-Body .logoFinal, .body-educacionI .logoFinal, .body-enlacesdeInteres .logoFinal, .body-educTecnica .logoFinal, .body-contacto .logoFinal, .body-marketing .logoFinal, .body-operaciones .logoFinal, .body-informatica .logoFinal, .body-educacionII .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .acercaDe-Body .contenedor2, .body-educacionI .contenedor2, .body-enlacesdeInteres .contenedor2, .body-educTecnica .contenedor2, .body-contacto .contenedor2, .body-marketing .contenedor2, .body-operaciones .contenedor2, .body-informatica .contenedor2, .body-educacionII .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .body-educacionI .texto1, .body-enlacesdeInteres .texto1, .body-educTecnica .texto1, .body-contacto .texto1, .body-marketing .texto1, .body-operaciones .texto1, .body-informatica .texto1, .body-educacionII .texto1 {
@@ -328,6 +476,755 @@
 .body-educacionI .classRoom:hover, .body-enlacesdeInteres .classRoom:hover, .body-educTecnica .classRoom:hover, .body-contacto .classRoom:hover, .body-marketing .classRoom:hover, .body-operaciones .classRoom:hover, .body-informatica .classRoom:hover, .body-educacionII .classRoom:hover {
   color: red;
   font-family: "Roboto";
+}
+@media screen and (max-width: 600px) {
+  .body-educacionI .body-index, .body-enlacesdeInteres .body-index, .body-educacionI .body-enlacesdeInteres, .body-enlacesdeInteres .body-enlacesdeInteres, .body-educTecnica .body-index, .body-educTecnica .body-enlacesdeInteres, .body-educacionI .body-educTecnica, .body-enlacesdeInteres .body-educTecnica, .body-educTecnica .body-educTecnica, .body-contacto .body-index, .body-contacto .body-enlacesdeInteres, .body-contacto .body-educTecnica, .body-marketing .body-index, .body-marketing .body-enlacesdeInteres, .body-marketing .body-educTecnica, .body-operaciones .body-index, .body-operaciones .body-enlacesdeInteres, .body-operaciones .body-educTecnica, .body-informatica .body-index, .body-informatica .body-enlacesdeInteres, .body-informatica .body-educTecnica, .body-educacionII .body-index, .body-educacionII .body-enlacesdeInteres, .body-educacionII .body-educTecnica, .body-educacionI .acercaDe-Body, .body-enlacesdeInteres .acercaDe-Body, .body-educTecnica .acercaDe-Body, .body-contacto .acercaDe-Body, .body-marketing .acercaDe-Body, .body-operaciones .acercaDe-Body, .body-informatica .acercaDe-Body, .body-educacionII .acercaDe-Body, .body-educacionI .body-educacionI, .body-enlacesdeInteres .body-educacionI, .body-educTecnica .body-educacionI, .body-contacto .body-educacionI, .body-educacionI .body-contacto, .body-enlacesdeInteres .body-contacto, .body-educTecnica .body-contacto, .body-contacto .body-contacto, .body-marketing .body-educacionI, .body-marketing .body-contacto, .body-educacionI .body-marketing, .body-enlacesdeInteres .body-marketing, .body-educTecnica .body-marketing, .body-contacto .body-marketing, .body-marketing .body-marketing, .body-operaciones .body-educacionI, .body-operaciones .body-contacto, .body-operaciones .body-marketing, .body-educacionI .body-operaciones, .body-enlacesdeInteres .body-operaciones, .body-educTecnica .body-operaciones, .body-contacto .body-operaciones, .body-marketing .body-operaciones, .body-operaciones .body-operaciones, .body-informatica .body-educacionI, .body-informatica .body-contacto, .body-informatica .body-marketing, .body-informatica .body-operaciones, .body-educacionI .body-informatica, .body-enlacesdeInteres .body-informatica, .body-educTecnica .body-informatica, .body-contacto .body-informatica, .body-marketing .body-informatica, .body-operaciones .body-informatica, .body-informatica .body-informatica, .body-educacionII .body-educacionI, .body-educacionII .body-contacto, .body-educacionII .body-marketing, .body-educacionII .body-operaciones, .body-educacionII .body-informatica, .body-educacionI .body-educacionII, .body-enlacesdeInteres .body-educacionII, .body-educTecnica .body-educacionII, .body-contacto .body-educacionII, .body-marketing .body-educacionII, .body-operaciones .body-educacionII, .body-informatica .body-educacionII, .body-educacionII .body-educacionII {
+    background: red;
+  }
+  .body-educacionI .titulo, .body-enlacesdeInteres .titulo, .body-educTecnica .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-educacionI .navbar, .body-enlacesdeInteres .navbar, .body-educTecnica .navbar, .body-contacto .navbar, .body-marketing .navbar, .body-operaciones .navbar, .body-informatica .navbar, .body-educacionII .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .body-educacionI .nav-enlaces, .body-enlacesdeInteres .nav-enlaces, .body-educTecnica .nav-enlaces, .body-contacto .nav-enlaces, .body-marketing .nav-enlaces, .body-operaciones .nav-enlaces, .body-informatica .nav-enlaces, .body-educacionII .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-educacionI .nav-enlaces:hover, .body-enlacesdeInteres .nav-enlaces:hover, .body-educTecnica .nav-enlaces:hover, .body-contacto .nav-enlaces:hover, .body-marketing .nav-enlaces:hover, .body-operaciones .nav-enlaces:hover, .body-informatica .nav-enlaces:hover, .body-educacionII .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-educacionI .navbar-ul-li, .body-enlacesdeInteres .navbar-ul-li, .body-educTecnica .navbar-ul-li, .body-contacto .navbar-ul-li, .body-marketing .navbar-ul-li, .body-operaciones .navbar-ul-li, .body-informatica .navbar-ul-li, .body-educacionII .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .body-educacionI .nav-imagen, .body-enlacesdeInteres .nav-imagen, .body-educTecnica .nav-imagen, .body-contacto .nav-imagen, .body-marketing .nav-imagen, .body-operaciones .nav-imagen, .body-informatica .nav-imagen, .body-educacionII .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .body-educacionI .search-button, .body-enlacesdeInteres .search-button, .body-educTecnica .search-button, .body-contacto .search-button, .body-marketing .search-button, .body-operaciones .search-button, .body-informatica .search-button, .body-educacionII .search-button {
+    margin-right: 5px;
+  }
+  .body-educacionI .nav-enlaces, .body-enlacesdeInteres .nav-enlaces, .body-educTecnica .nav-enlaces, .body-contacto .nav-enlaces, .body-marketing .nav-enlaces, .body-operaciones .nav-enlaces, .body-informatica .nav-enlaces, .body-educacionII .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-educacionI .nav-enlaces:hover, .body-enlacesdeInteres .nav-enlaces:hover, .body-educTecnica .nav-enlaces:hover, .body-contacto .nav-enlaces:hover, .body-marketing .nav-enlaces:hover, .body-operaciones .nav-enlaces:hover, .body-informatica .nav-enlaces:hover, .body-educacionII .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-educacionI .search-container, .body-enlacesdeInteres .search-container, .body-educTecnica .search-container, .body-contacto .search-container, .body-marketing .search-container, .body-operaciones .search-container, .body-informatica .search-container, .body-educacionII .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .body-educacionI .titulo, .body-enlacesdeInteres .titulo, .body-educTecnica .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-educacionI .titulo:hover, .body-enlacesdeInteres .titulo:hover, .body-educTecnica .titulo:hover, .body-contacto .titulo:hover, .body-marketing .titulo:hover, .body-operaciones .titulo:hover, .body-informatica .titulo:hover, .body-educacionII .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .body-educacionI .texto, .body-enlacesdeInteres .texto, .body-educTecnica .texto, .body-contacto .texto, .body-marketing .texto, .body-operaciones .texto, .body-informatica .texto, .body-educacionII .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .body-educacionI .titulo2, .body-enlacesdeInteres .titulo2, .body-educTecnica .titulo2, .body-contacto .titulo2, .body-marketing .titulo2, .body-operaciones .titulo2, .body-informatica .titulo2, .body-educacionII .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .body-educacionI .titulo2:hover, .body-enlacesdeInteres .titulo2:hover, .body-educTecnica .titulo2:hover, .body-contacto .titulo2:hover, .body-marketing .titulo2:hover, .body-operaciones .titulo2:hover, .body-informatica .titulo2:hover, .body-educacionII .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .body-educacionI .contenedor1, .body-enlacesdeInteres .contenedor1, .body-educTecnica .contenedor1, .body-contacto .contenedor1, .body-marketing .contenedor1, .body-operaciones .contenedor1, .body-informatica .contenedor1, .body-educacionII .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-educacionI .pages, .body-enlacesdeInteres .pages, .body-educTecnica .pages, .body-contacto .pages, .body-marketing .pages, .body-operaciones .pages, .body-informatica .pages, .body-educacionII .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .body-educacionI .datosCreacion, .body-enlacesdeInteres .datosCreacion, .body-educTecnica .datosCreacion, .body-contacto .datosCreacion, .body-marketing .datosCreacion, .body-operaciones .datosCreacion, .body-informatica .datosCreacion, .body-educacionII .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .body-educacionI .logoFinal, .body-enlacesdeInteres .logoFinal, .body-educTecnica .logoFinal, .body-contacto .logoFinal, .body-marketing .logoFinal, .body-operaciones .logoFinal, .body-informatica .logoFinal, .body-educacionII .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-educacionI .contenedor2, .body-enlacesdeInteres .contenedor2, .body-educTecnica .contenedor2, .body-contacto .contenedor2, .body-marketing .contenedor2, .body-operaciones .contenedor2, .body-informatica .contenedor2, .body-educacionII .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body-educacionII .body-index, .body-educacionII .body-enlacesdeInteres, .body-educacionII .body-educTecnica, .body-educacionII .acercaDe-Body, .body-educacionII .body-educacionI, .body-educacionII .body-contacto, .body-educacionII .body-marketing, .body-educacionII .body-operaciones, .body-educacionII .body-informatica, .body-educacionII .body-educacionII {
+    background: red;
+  }
+  .body-educacionII .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-educacionII .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .body-educacionII .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-educacionII .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-educacionII .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .body-educacionII .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .body-educacionII .search-button {
+    margin-right: 5px;
+  }
+  .body-educacionII .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-educacionII .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-educacionII .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .body-educacionII .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-educacionII .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .body-educacionII .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .body-educacionII .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .body-educacionII .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .body-educacionII .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-educacionII .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .body-educacionII .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .body-educacionII .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-educacionII .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body-informatica .body-index, .body-informatica .body-enlacesdeInteres, .body-informatica .body-educTecnica, .body-informatica .acercaDe-Body, .body-informatica .body-educacionI, .body-informatica .body-contacto, .body-informatica .body-marketing, .body-informatica .body-operaciones, .body-informatica .body-educacionII, .body-informatica .body-informatica {
+    background: red;
+  }
+  .body-informatica .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-informatica .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .body-informatica .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-informatica .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-informatica .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .body-informatica .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .body-informatica .search-button {
+    margin-right: 5px;
+  }
+  .body-informatica .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-informatica .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-informatica .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .body-informatica .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-informatica .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .body-informatica .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .body-informatica .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .body-informatica .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .body-informatica .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-informatica .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .body-informatica .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .body-informatica .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-informatica .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body-operaciones .body-index, .body-operaciones .body-enlacesdeInteres, .body-operaciones .body-educTecnica, .body-operaciones .acercaDe-Body, .body-operaciones .body-educacionI, .body-operaciones .body-contacto, .body-operaciones .body-marketing, .body-operaciones .body-educacionII, .body-operaciones .body-informatica, .body-operaciones .body-operaciones {
+    background: red;
+  }
+  .body-operaciones .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-operaciones .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .body-operaciones .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-operaciones .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-operaciones .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .body-operaciones .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .body-operaciones .search-button {
+    margin-right: 5px;
+  }
+  .body-operaciones .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-operaciones .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-operaciones .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .body-operaciones .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-operaciones .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .body-operaciones .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .body-operaciones .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .body-operaciones .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .body-operaciones .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-operaciones .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .body-operaciones .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .body-operaciones .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-operaciones .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body-marketing .body-index, .body-marketing .body-enlacesdeInteres, .body-marketing .body-educTecnica, .body-marketing .acercaDe-Body, .body-marketing .body-educacionI, .body-marketing .body-contacto, .body-marketing .body-educacionII, .body-marketing .body-informatica, .body-marketing .body-operaciones, .body-marketing .body-marketing {
+    background: red;
+  }
+  .body-marketing .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-marketing .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .body-marketing .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-marketing .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-marketing .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .body-marketing .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .body-marketing .search-button {
+    margin-right: 5px;
+  }
+  .body-marketing .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-marketing .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-marketing .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .body-marketing .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-marketing .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .body-marketing .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .body-marketing .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .body-marketing .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .body-marketing .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-marketing .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .body-marketing .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .body-marketing .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-marketing .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .body-contacto .contenedor4 {
@@ -368,6 +1265,305 @@
   font-family: "Times New Roman";
   text-align: justify;
   text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .body-contacto .body-index, .body-contacto .body-enlacesdeInteres, .body-contacto .body-educTecnica, .body-contacto .acercaDe-Body, .body-contacto .body-educacionI, .body-contacto .body-educacionII, .body-contacto .body-informatica, .body-contacto .body-operaciones, .body-contacto .body-marketing, .body-contacto .body-contacto {
+    background: red;
+  }
+  .body-contacto .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-contacto .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .body-contacto .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-contacto .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-contacto .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .body-contacto .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .body-contacto .search-button {
+    margin-right: 5px;
+  }
+  .body-contacto .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-contacto .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-contacto .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .body-contacto .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-contacto .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .body-contacto .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .body-contacto .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .body-contacto .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .body-contacto .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-contacto .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .body-contacto .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .body-contacto .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-contacto .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body-educTecnica .body-index, .body-educTecnica .body-enlacesdeInteres, .body-educTecnica .acercaDe-Body, .body-educTecnica .body-educacionI, .body-educTecnica .body-educacionII, .body-educTecnica .body-informatica, .body-educTecnica .body-operaciones, .body-educTecnica .body-marketing, .body-educTecnica .body-contacto, .body-educTecnica .body-educTecnica {
+    background: red;
+  }
+  .body-educTecnica .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-educTecnica .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .body-educTecnica .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-educTecnica .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-educTecnica .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .body-educTecnica .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .body-educTecnica .search-button {
+    margin-right: 5px;
+  }
+  .body-educTecnica .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-educTecnica .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-educTecnica .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .body-educTecnica .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-educTecnica .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .body-educTecnica .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .body-educTecnica .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .body-educTecnica .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .body-educTecnica .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-educTecnica .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .body-educTecnica .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .body-educTecnica .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-educTecnica .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .body-enlacesdeInteres .pagina1 {
@@ -412,6 +1608,155 @@
   color: red;
   animation-duration: 0.7s;
   animation-iteration-count: infinite;
+}
+@media screen and (max-width: 600px) {
+  .body-enlacesdeInteres .body-index, .body-enlacesdeInteres .acercaDe-Body, .body-enlacesdeInteres .body-educacionI, .body-enlacesdeInteres .body-educacionII, .body-enlacesdeInteres .body-informatica, .body-enlacesdeInteres .body-operaciones, .body-enlacesdeInteres .body-marketing, .body-enlacesdeInteres .body-contacto, .body-enlacesdeInteres .body-educTecnica, .body-enlacesdeInteres .body-enlacesdeInteres {
+    background: red;
+  }
+  .body-enlacesdeInteres .titulo {
+    margin-top: 40px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-enlacesdeInteres .navbar {
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .body-enlacesdeInteres .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-enlacesdeInteres .nav-enlaces:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-enlacesdeInteres .navbar-ul-li {
+    float: left;
+    text-decoration: none;
+  }
+  .body-enlacesdeInteres .nav-imagen {
+    width: 35px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+  .body-enlacesdeInteres .search-button {
+    margin-right: 5px;
+  }
+  .body-enlacesdeInteres .nav-enlaces {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  .body-enlacesdeInteres .nav-enlaces:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .body-enlacesdeInteres .search-container {
+    float: right;
+    text-decoration: none;
+  }
+  .body-enlacesdeInteres .titulo {
+    margin-top: 50px;
+    color: red;
+    font-family: "Roboto";
+    font-size: 5px;
+    text-decoration: underline;
+    text-decoration-style: bold;
+    text-align: center;
+    transition: infinite;
+    transition: all 0.7s;
+  }
+  .body-enlacesdeInteres .titulo:hover {
+    font-family: "Pacifico";
+    color: red;
+    font-size: 60px;
+  }
+  .body-enlacesdeInteres .texto {
+    padding: 20px 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-align: justify;
+  }
+  .body-enlacesdeInteres .titulo2 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .body-enlacesdeInteres .titulo2:hover {
+    color: red;
+    font-family: "Pacifico";
+  }
+  .body-enlacesdeInteres .contenedor1 {
+    display: block;
+    justify-content: center;
+    padding: 60px 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-enlacesdeInteres .pages {
+    width: 50px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .body-enlacesdeInteres .datosCreacion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+  }
+  .body-enlacesdeInteres .logoFinal {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .body-enlacesdeInteres .contenedor2 {
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=Style.css.map */

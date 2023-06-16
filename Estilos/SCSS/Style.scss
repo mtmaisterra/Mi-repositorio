@@ -116,15 +116,17 @@
         }
 
         .navbar {
-            @include navBarMediaQuerie1($Size5);        }
+            @include navBarMediaQuerie1($Size5);
+        }
 
-            .nav-enlaces {
-                @include enlacesMediaQuerie1(inline-flex);
-        
-                &:hover {
-                    @include enlaces-hover (grey);
-                }
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
             }
+        }
+
         .navbar-ul-li {
             float: $float1;
             text-decoration: $Dec4;
@@ -140,63 +142,64 @@
         }
 
         .nav-enlaces {
-           @include nav-enlacesMediaQuerie1(inline-flex);
+            @include nav-enlacesMediaQuerie1(inline-flex);
 
             &:hover {
                 @include enlaces-hover (white);
             }
         }
+
         .search-container {
             float: $float2;
             text-decoration: $Dec4;
         }
-    
+
         .titulo {
-            @include titulo(50px);
-    
+            @include tituloMediaQuerie1(50px);
+
             &:hover {
                 font-family: $font2;
                 color: $color1;
                 font-size: $Size16;
             }
         }
-    
+
         .texto {
-            @include texto(20px);
+            @include textoMediaQuerie1(20px);
         }
-    
+
         .titulo2 {
             @include educacionI-otrosMediaQuerie1(60px);
-    
+
             &:hover {
                 color: $color1;
                 font-family: $font2;
             }
         }
-    
+
         .contenedor1 {
-            @include contenedor1 (block);
+            @include contenedor1MediaQuerie1 (block);
         }
-    
+
         .pages {
-            @include enlacesClassRoom(250px);
+            @include enlacesClassRoomMediaQuerie1(50px);
             animation-name: aparecer;
             animation-duration: 3s;
             animation-iteration-count: infinite;
         }
-    
+
         .datosCreacion {
-            @include datos(20px);
+            @include datosMediaQuerie1(20px);
         }
-    
+
         .logoFinal {
-            @include logoFinal(100px);
+            @include logoFinalMediaQuerie1(100px);
         }
-    
+
         .contenedor2 {
-            @include contenedor2 (block);
+            @include contenedor2MediaQuerie1 (block);
         }
-    
+
     }
 }
 
@@ -214,6 +217,101 @@
         &:hover {
             @include enlace-index(60px);
         }
+    }
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
     }
 
 }
@@ -234,28 +332,499 @@
             font-family: $font3;
         }
     }
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
+    }
 }
 
 .body-educacionII {
     @extend .body-educacionI;
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
 
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
+    }
 
 
 }
 
 .body-informatica {
     @extend .body-educacionI;
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
 
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
+    }
 }
 
 .body-operaciones {
     @extend .body-educacionI;
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
 
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
+    }
 }
 
 .body-marketing {
     @extend .body-educacionI;
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
 
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
+    }
 }
 
 
@@ -280,11 +849,201 @@
         @include texto(25px);
         text-align: center;
     }
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
+    }
 }
 
 .body-educTecnica {
     @extend .body-index;
     @extend .body-educacionI;
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
+    }
 }
 
 .body-enlacesdeInteres {
@@ -314,5 +1073,100 @@
         margin-right: $Size29;
         @include flecha1(100px);
         @include transicion1(5px);
+    }
+    @media screen and (max-width: 600px) {
+        .body-index {
+            background: $color1;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(40px);
+        }
+
+        .navbar {
+            @include navBarMediaQuerie1($Size5);
+        }
+
+        .nav-enlaces {
+            @include enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (grey);
+            }
+        }
+
+        .navbar-ul-li {
+            float: $float1;
+            text-decoration: $Dec4;
+        }
+
+        .nav-imagen {
+            @include nav-imageMediaQuerie1($Size3);
+
+        }
+
+        .search-button {
+            margin-right: $Size5;
+        }
+
+        .nav-enlaces {
+            @include nav-enlacesMediaQuerie1(inline-flex);
+
+            &:hover {
+                @include enlaces-hover (white);
+            }
+        }
+
+        .search-container {
+            float: $float2;
+            text-decoration: $Dec4;
+        }
+
+        .titulo {
+            @include tituloMediaQuerie1(50px);
+
+            &:hover {
+                font-family: $font2;
+                color: $color1;
+                font-size: $Size16;
+            }
+        }
+
+        .texto {
+            @include textoMediaQuerie1(20px);
+        }
+
+        .titulo2 {
+            @include educacionI-otrosMediaQuerie1(60px);
+
+            &:hover {
+                color: $color1;
+                font-family: $font2;
+            }
+        }
+
+        .contenedor1 {
+            @include contenedor1MediaQuerie1 (block);
+        }
+
+        .pages {
+            @include enlacesClassRoomMediaQuerie1(50px);
+            animation-name: aparecer;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .datosCreacion {
+            @include datosMediaQuerie1(20px);
+        }
+
+        .logoFinal {
+            @include logoFinalMediaQuerie1(100px);
+        }
+
+        .contenedor2 {
+            @include contenedor2MediaQuerie1 (block);
+        }
+
     }
 }
