@@ -52,6 +52,32 @@
             @include enlaces-hover (grey);
         }
     }
+    @media (max-width: 768px) {
+        .navbar {
+          @include navbar(20px);
+        }
+      
+        .navbar-ul-li {
+          float: $float1;
+          text-decoration: $Dec4;
+        }
+      
+        .nav-imagen {
+          @include imagenLogo(80px);
+        }
+      
+        .search-button {
+          margin-right: $Size3;
+        }
+      
+        .nav-enlaces {
+          @include enlaces(inline-flex);
+      
+          &:hover {
+            @include enlaces-hover(grey);
+          }
+        }
+      }
 
     .search-container {
         float: $float2;
