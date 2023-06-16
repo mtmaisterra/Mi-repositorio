@@ -779,7 +779,7 @@
         }
 
         .titulo {
-            @include tituloMediaQuerie1(50px);
+            @include tituloMediaQuerie1(100px);
 
             &:hover {
                 font-family: $font2;
