@@ -94,21 +94,6 @@
     font-size: 60px;
   }
 }
-@media (min-width: 1200px) {
-  .body-index, .body-enlacesdeInteres, .body-educTecnica, .acercaDe-Body, .body-educacionI, .body-contacto, .body-marketing, .body-operaciones, .body-informatica, .body-educacionII {
-    /* Estilos para pantallas con un ancho mínimo de 1200px */
-    margin-top: 100px;
-    color: blue;
-    font-family: "Times New Roman";
-    font-size: 100px;
-    text-decoration: underline;
-    text-decoration-style: bold;
-    text-align: center;
-    transition: infinite;
-    transition: all 0.7s;
-    font-size: 17px;
-  }
-}
 @media (max-width: 767px) {
   .body-index, .body-enlacesdeInteres, .body-educTecnica, .acercaDe-Body, .body-educacionI, .body-contacto, .body-marketing, .body-operaciones, .body-informatica, .body-educacionII {
     /* Estilos para pantallas móviles con un ancho máximo de 767px */

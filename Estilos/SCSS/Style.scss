@@ -70,14 +70,9 @@
     @media (max-width: 600px) {
         /* Estilos para pantallas con un ancho máximo de 600px */
         @include titulo(60px);
-        font-size: $Size16;
-    }
+        font-size: $Size16;    }
 
-    @media (min-width: 1200px) {
-        /* Estilos para pantallas con un ancho mínimo de 1200px */
-        @include titulo(100px);
-        font-size: $Size22;
-    }
+    
     @media (max-width: 767px) {
         /* Estilos para pantallas móviles con un ancho máximo de 767px */
         @include titulo(60px);
