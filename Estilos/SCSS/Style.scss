@@ -75,7 +75,7 @@
     }
 
     .titulo2 {
-        @include educacionI-otros(80px);
+        @include educacionI-otros(60px);
 
         &:hover {
             color: $color1;
@@ -155,7 +155,7 @@
         }
 
         .titulo {
-            @include tituloMediaQuerie1(50px);
+            @include tituloMediaQuerie1(40px);
 
             &:hover {
                 font-family: $font2;
@@ -267,7 +267,7 @@
         }
 
         .titulo {
-            @include tituloMediaQuerie1(50px);
+            @include tituloMediaQuerie1(40px);
 
             &:hover {
                 font-family: $font2;
@@ -393,7 +393,7 @@
         }
 
         .titulo {
-            @include tituloMediaQuerie1(50px);
+            @include tituloMediaQuerie1(40px);
 
             &:hover {
                 font-family: $font2;

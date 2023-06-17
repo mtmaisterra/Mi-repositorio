@@ -86,7 +86,7 @@
   text-align: justify;
 }
 .body-index .titulo2, .body-enlacesdeInteres .titulo2, .body-educTecnica .titulo2, .acercaDe-Body .titulo2, .body-educacionI .titulo2, .body-contacto .titulo2, .body-marketing .titulo2, .body-operaciones .titulo2, .body-informatica .titulo2, .body-educacionII .titulo2 {
-  font-size: 80px;
+  font-size: 60px;
   margin-top: 150px;
   font-family: "Times New Roman";
   text-align: center;
@@ -143,7 +143,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -211,10 +211,10 @@
     text-decoration: none;
   }
   .body-index .titulo, .body-enlacesdeInteres .titulo, .body-educTecnica .titulo, .acercaDe-Body .titulo, .body-educacionI .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
-    margin-top: 50px;
+    margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -318,7 +318,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -386,10 +386,10 @@
     text-decoration: none;
   }
   .acercaDe-Body .titulo, .body-educacionI .titulo, .body-enlacesdeInteres .titulo, .body-educTecnica .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
-    margin-top: 50px;
+    margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -502,7 +502,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -570,10 +570,10 @@
     text-decoration: none;
   }
   .body-educacionI .titulo, .body-enlacesdeInteres .titulo, .body-educTecnica .titulo, .body-contacto .titulo, .body-marketing .titulo, .body-operaciones .titulo, .body-informatica .titulo, .body-educacionII .titulo {
-    margin-top: 50px;
+    margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -669,7 +669,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -740,7 +740,7 @@
     margin-top: 50px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -836,7 +836,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -907,7 +907,7 @@
     margin-top: 50px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1003,7 +1003,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1074,7 +1074,7 @@
     margin-top: 50px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1170,7 +1170,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1241,7 +1241,7 @@
     margin-top: 50px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1376,7 +1376,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1447,7 +1447,7 @@
     margin-top: 50px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1582,7 +1582,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1653,7 +1653,7 @@
     margin-top: 50px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1874,7 +1874,7 @@
     margin-top: 40px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
@@ -1945,7 +1945,7 @@
     margin-top: 50px;
     color: red;
     font-family: "Roboto";
-    font-size: 5px;
+    font-size: 80px;
     text-decoration: underline;
     text-decoration-style: bold;
     text-align: center;
