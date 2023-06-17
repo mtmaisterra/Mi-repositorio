@@ -336,7 +336,19 @@
         .body-index {
             background: $color1;
         }
-
+        .texto1 {
+            @include texto1(40px);
+        }
+    
+        .classRoom {
+            @include texto1(20px);
+            text-decoration: $Dec4;
+    
+            &:hover {
+                color: $color3;
+                font-family: $font2;
+            }
+        }
         .titulo {
             @include tituloMediaQuerie1(40px);
         }
@@ -431,11 +443,24 @@
 
 .body-educacionII {
     @extend .body-educacionI;
+   
     @media screen and (max-width: 600px) {
         .body-index {
             background: $color1;
         }
-
+        .texto1 {
+            @include texto1(40px);
+        }
+    
+        .classRoom {
+            @include texto1(20px);
+            text-decoration: $Dec4;
+    
+            &:hover {
+                color: $color3;
+                font-family: $font2;
+            }
+        }
         .titulo {
             @include tituloMediaQuerie1(40px);
         }
@@ -526,8 +551,6 @@
         }
 
     }
-
-
 }
 
 .body-informatica {
@@ -536,7 +559,19 @@
         .body-index {
             background: $color1;
         }
-
+        .texto1 {
+            @include texto1(40px);
+        }
+    
+        .classRoom {
+            @include texto1(20px);
+            text-decoration: $Dec4;
+    
+            &:hover {
+                color: $color3;
+                font-family: $font2;
+            }
+        }
         .titulo {
             @include tituloMediaQuerie1(40px);
         }
@@ -635,7 +670,19 @@
         .body-index {
             background: $color1;
         }
-
+        .texto1 {
+            @include texto1(40px);
+        }
+    
+        .classRoom {
+            @include texto1(20px);
+            text-decoration: $Dec4;
+    
+            &:hover {
+                color: $color3;
+                font-family: $font2;
+            }
+        }
         .titulo {
             @include tituloMediaQuerie1(40px);
         }
@@ -734,7 +781,19 @@
         .body-index {
             background: $color1;
         }
-
+        .texto1 {
+            @include texto1(40px);
+        }
+    
+        .classRoom {
+            @include texto1(20px);
+            text-decoration: $Dec4;
+    
+            &:hover {
+                color: $color3;
+                font-family: $font2;
+            }
+        }
         .titulo {
             @include tituloMediaQuerie1(40px);
         }
@@ -779,7 +838,7 @@
         }
 
         .titulo {
-            @include tituloMediaQuerie1(100px);
+            @include tituloMediaQuerie1(50px);
 
             &:hover {
                 font-family: $font2;
@@ -831,7 +890,6 @@
 .body-contacto {
     @extend .body-educacionI;
 
-
     .contenedor4 {
         @include contenedor4(400px);
     }
@@ -853,7 +911,19 @@
         .body-index {
             background: $color1;
         }
-
+        .texto1 {
+            @include texto1(40px);
+        }
+    
+        .classRoom {
+            @include texto1(20px);
+            text-decoration: $Dec4;
+    
+            &:hover {
+                color: $color3;
+                font-family: $font2;
+            }
+        }
         .titulo {
             @include tituloMediaQuerie1(40px);
         }
@@ -905,6 +975,23 @@
                 color: $color1;
                 font-size: $Size16;
             }
+        }
+        .contenedor4 {
+            @include contenedor4(400px);
+        }
+    
+        .volver {
+            @include flecha1(100px);
+            @include transicion1(5px);
+        }
+    
+        .imagenes2 {
+            @include imagenesContacto(35px);
+        }
+    
+        .redes {
+            @include texto(25px);
+            text-align: center;
         }
 
         .texto {
@@ -953,7 +1040,19 @@
         .body-index {
             background: $color1;
         }
-
+        .texto1 {
+            @include texto1(40px);
+        }
+    
+        .classRoom {
+            @include texto1(20px);
+            text-decoration: $Dec4;
+    
+            &:hover {
+                color: $color3;
+                font-family: $font2;
+            }
+        }
         .titulo {
             @include tituloMediaQuerie1(40px);
         }
@@ -1005,6 +1104,23 @@
                 color: $color1;
                 font-size: $Size16;
             }
+        }
+        .contenedor4 {
+            @include contenedor4(400px);
+        }
+    
+        .volver {
+            @include flecha1(100px);
+            @include transicion1(5px);
+        }
+    
+        .imagenes2 {
+            @include imagenesContacto(35px);
+        }
+    
+        .redes {
+            @include texto(25px);
+            text-align: center;
         }
 
         .texto {
@@ -1078,7 +1194,42 @@
         .body-index {
             background: $color1;
         }
-
+        .texto1 {
+            @include texto1(40px);
+        }
+        .pagina1 {
+            @include texto3(30px);
+            text-decoration: $Dec4;
+        }
+    
+        .contenedor5 {
+            @include contenedor5 (center);
+        }
+    
+        .texto5 {
+            @include texto3(20px);
+    
+        }
+    
+        .imagen3 {
+            @include imagen3(100px);
+    
+        }
+    
+        .volver {
+            margin-right: $Size29;
+            @include flecha1(100px);
+            @include transicion1(5px);
+        }
+        .classRoom {
+            @include texto1(10px);
+            text-decoration: $Dec4;
+    
+            &:hover {
+                color: $color3;
+                font-family: $font2;
+            }
+        }
         .titulo {
             @include tituloMediaQuerie1(40px);
         }
@@ -1130,6 +1281,23 @@
                 color: $color1;
                 font-size: $Size16;
             }
+        }
+        .contenedor4 {
+            @include contenedor4(400px);
+        }
+    
+        .volver {
+            @include flecha1(100px);
+            @include transicion1(5px);
+        }
+    
+        .imagenes2 {
+            @include imagenesContacto(35px);
+        }
+    
+        .redes {
+            @include texto(25px);
+            text-align: center;
         }
 
         .texto {
