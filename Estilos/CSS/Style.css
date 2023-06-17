@@ -253,8 +253,8 @@
     text-align: center;
   }
   .body-index .pages, .body-enlacesdeInteres .pages, .body-educTecnica .pages, .acercaDe-Body .pages, .body-educacionI .pages, .body-contacto .pages, .body-marketing .pages, .body-operaciones .pages, .body-informatica .pages, .body-educacionII .pages {
-    width: 50px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -429,7 +429,7 @@
   }
   .acercaDe-Body .pages, .body-educacionI .pages, .body-enlacesdeInteres .pages, .body-educTecnica .pages, .body-contacto .pages, .body-marketing .pages, .body-operaciones .pages, .body-informatica .pages, .body-educacionII .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -613,7 +613,7 @@
   }
   .body-educacionI .pages, .body-enlacesdeInteres .pages, .body-educTecnica .pages, .body-contacto .pages, .body-marketing .pages, .body-operaciones .pages, .body-informatica .pages, .body-educacionII .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -780,7 +780,7 @@
   }
   .body-educacionII .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -947,7 +947,7 @@
   }
   .body-informatica .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -1114,7 +1114,7 @@
   }
   .body-operaciones .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -1281,7 +1281,7 @@
   }
   .body-marketing .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -1526,7 +1526,7 @@
   }
   .body-contacto .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -1732,7 +1732,7 @@
   }
   .body-educTecnica .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;
@@ -2024,7 +2024,7 @@
   }
   .body-enlacesdeInteres .pages {
     width: 50px;
-    height: 150px;
+    height: 100px;
     justify-content: center;
     margin-top: 35px;
     margin-left: 35px;

@@ -182,7 +182,7 @@
         }
 
         .pages {
-            @include enlacesClassRoomMediaQuerie1(50px);
+            @include enlacesClassRoomMediaQuerie1(150px);
             animation-name: aparecer;
             animation-duration: 3s;
             animation-iteration-count: infinite;
