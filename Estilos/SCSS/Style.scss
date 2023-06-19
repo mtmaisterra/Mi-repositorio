@@ -110,11 +110,6 @@
         .body-index {
             background: $color1;
         }
-
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
-
         .navbar {
             @include navBarMediaQuerie1($Size5);
         }
@@ -221,11 +216,7 @@
     @media screen and (max-width: 600px) {
         .body-index {
             background: $color1;
-        }
-
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
+        }        
 
         .navbar {
             @include navBarMediaQuerie1($Size5);
@@ -349,9 +340,7 @@
                 font-family: $font2;
             }
         }
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
+      
 
         .navbar {
             @include navBarMediaQuerie1($Size5);
@@ -461,9 +450,7 @@
                 font-family: $font2;
             }
         }
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
+        
 
         .navbar {
             @include navBarMediaQuerie1($Size5);
@@ -572,10 +559,7 @@
                 font-family: $font2;
             }
         }
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
-
+      
         .navbar {
             @include navBarMediaQuerie1($Size5);
         }
@@ -683,10 +667,7 @@
                 font-family: $font2;
             }
         }
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
-
+   
         .navbar {
             @include navBarMediaQuerie1($Size5);
         }
@@ -794,10 +775,7 @@
                 font-family: $font2;
             }
         }
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
-
+     
         .navbar {
             @include navBarMediaQuerie1($Size5);
         }
@@ -923,9 +901,6 @@
                 color: $color3;
                 font-family: $font2;
             }
-        }
-        .titulo {
-            @include tituloMediaQuerie1(40px);
         }
 
         .navbar {
@@ -1053,10 +1028,7 @@
                 font-family: $font2;
             }
         }
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
-
+ 
         .navbar {
             @include navBarMediaQuerie1($Size5);
         }
@@ -1230,10 +1202,7 @@
                 font-family: $font2;
             }
         }
-        .titulo {
-            @include tituloMediaQuerie1(40px);
-        }
-
+      
         .navbar {
             @include navBarMediaQuerie1($Size5);
         }
